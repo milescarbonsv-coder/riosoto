@@ -6,7 +6,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [contactType, setContactType] = useState('consumer');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 5000);
