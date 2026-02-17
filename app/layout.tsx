@@ -1,11 +1,12 @@
 import "./globals.css";
+import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Helados Riosoto | Desde 1946",
   description: "80 años de tradición. 30+ sabores únicos. Distribuidores en El Salvador, Honduras y Guatemala.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es">
       <head>
