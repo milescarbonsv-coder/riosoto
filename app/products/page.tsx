@@ -2,7 +2,22 @@
 
 import { useState } from 'react';
 
-const products = {
+type ProductCategory = 'flavors' | 'presentations' | 'bulk';
+
+interface FlavorProduct {
+  name: string;
+  color: string;
+  desc: string;
+  icon: string;
+}
+
+interface OtherProduct {
+  name: string;
+  emoji: string;
+  desc: string;
+}
+
+const products: Record<ProductCategory, FlavorProduct[] | OtherProduct[]> = {
   flavors: [
     { name: "Choco Cream", color: "from-amber-700 to-amber-900", desc: "El clásico", icon: "🍫" },
     { name: "Paly Kakao", color: "from-yellow-600 to-amber-800", desc: "Cacao salvadoreño", icon: "🍫" },
@@ -40,8 +55,8 @@ const products = {
 };
 
 export default function Products() {
-  const [activeCategory, setActiveCategory] = useState('flavors');
-  const currentProducts = products[activeCategory];
+  const [activeCategory, setActiveCategory] = useState<ProductCategory>('flavors');
+  const currentProducts = products[activeCategory] as (FlavorProduct | OtherProduct)[];
 
   return (
     <main className="bg-white">
