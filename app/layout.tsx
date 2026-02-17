@@ -25,6 +25,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="flex gap-8 items-center">
               <a href="/" className="font-semibold text-gray-700 hover:text-orange-500 transition">Inicio</a>
               <a href="/products" className="font-semibold text-gray-700 hover:text-orange-500 transition">Productos</a>
+              <a href="/blog" className="font-semibold text-gray-700 hover:text-orange-500 transition">Blog</a>
+              <a href="/recipes" className="font-semibold text-gray-700 hover:text-orange-500 transition">Recetas</a>
               <a href="/about" className="font-semibold text-gray-700 hover:text-orange-500 transition">Nosotros</a>
               <a href="/contact" className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-2 rounded-full font-bold hover:shadow-lg transition">Contacto</a>
             </div>
