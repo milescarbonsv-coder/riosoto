@@ -95,7 +95,7 @@ export default function Products() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
           {activeCategory === 'flavors' ? (
             // Flavor Cards
-            currentProducts.map((product) => (
+            (currentProducts as FlavorProduct[]).map((product) => (
               <div 
                 key={product.name}
                 className="group cursor-pointer"
@@ -112,7 +112,7 @@ export default function Products() {
             ))
           ) : (
             // Presentations/Bulk
-            currentProducts.map((product) => (
+            (currentProducts as OtherProduct[]).map((product) => (
               <div 
                 key={product.name}
                 className="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition transform hover:scale-105 border-2 border-gray-200 hover:border-orange-400 text-center cursor-pointer"
