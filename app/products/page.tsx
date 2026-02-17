@@ -73,13 +73,13 @@ export default function Products() {
         {/* Category Tabs */}
         <div className="flex justify-center gap-3 mb-16 flex-wrap">
           {[
-            { key: 'flavors', label: '🍦 Sabores' },
-            { key: 'presentations', label: '🍭 Presentaciones' },
-            { key: 'bulk', label: '📦 Mayoristas' }
+            { key: 'flavors' as const, label: '🍦 Sabores' },
+            { key: 'presentations' as const, label: '🍭 Presentaciones' },
+            { key: 'bulk' as const, label: '📦 Mayoristas' }
           ].map(cat => (
             <button
               key={cat.key}
-              onClick={() => setActiveCategory(cat.key)}
+              onClick={() => setActiveCategory(cat.key as ProductCategory)}
               className={`px-8 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 ${
                 activeCategory === cat.key
                   ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-lg'
