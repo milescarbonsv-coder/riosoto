@@ -17,12 +17,10 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10 py-20">
           <div>
-            <div className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-slate-200/50">
-              <span className="w-2 h-2 rounded-full bg-rojo animate-pulse" />
-              <span className="text-xs font-semibold text-slate-600 tracking-wide uppercase">Desde 1946</span>
-            </div>
+            {/* Hero Logo — the brand front and center */}
+            <Image src="/logo.svg" alt="Riosoto" width={500} height={150} className="w-72 sm:w-80 md:w-96 h-auto mb-6" priority />
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-slate-900 leading-[0.9]">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-slate-900 leading-[0.9]">
               Dulzura sin
               <span className="block text-gradient">Fronteras</span>
             </h1>

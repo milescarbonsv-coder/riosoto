@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { footerNavLinks } from '@/data/navigation';
 
 export function Footer() {
@@ -10,7 +11,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>Riosoto</h3>
+            <Image src="/logo.svg" alt="Riosoto" width={200} height={60} className="h-14 w-auto mb-1" />
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               80 años creando momentos dulces para las familias centroamericanas.
             </p>
