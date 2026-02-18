@@ -12,7 +12,7 @@ export default function Home() {
             80 años de tradición, sabor y confianza
           </p>
           <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 md:mb-12 max-w-2xl mx-auto">
-            La marca local que las familias salvadoreñas eligen desde 1946. Ahora trayendo 30+ sabores únicos a tu negocio.
+            La marca local que las familias salvadoreñas eligen desde 1946. Ahora trayendo 30+ sabores únicos.
           </p>
           <a href="#distributor" className="inline-block bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 sm:px-8 md:px-12 py-3 sm:py-4 rounded-full font-bold text-sm sm:text-base md:text-lg hover:shadow-lg transition transform hover:scale-105">
             Distribuye Riosoto Hoy

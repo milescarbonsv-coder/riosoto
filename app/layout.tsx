@@ -18,10 +18,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Navigation Bar */}
         <nav className="sticky top-0 z-50 bg-white shadow-md">
           <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <div>
-              <h1 className="text-3xl font-black text-gray-900">Riosoto</h1>
-              <p className="text-xs text-orange-600 font-bold tracking-wide">DESDE 1946</p>
-            </div>
+            <a href="/" className="flex items-center gap-2 sm:gap-3">
+              <img src="/logo.svg" alt="Riosoto" className="w-8 h-8 sm:w-10 sm:h-10" />
+              <div>
+                <h1 className="text-2xl sm:text-3xl font-black text-gray-900">Riosoto</h1>
+                <p className="text-xs text-orange-600 font-bold tracking-wide">DESDE 1946</p>
+              </div>
+            </a>
             <div className="flex gap-8 items-center">
               <a href="/" className="font-semibold text-gray-700 hover:text-orange-500 transition">Inicio</a>
               <a href="/products" className="font-semibold text-gray-700 hover:text-orange-500 transition">Productos</a>
