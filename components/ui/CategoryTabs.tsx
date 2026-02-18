@@ -17,15 +17,15 @@ export function CategoryTabs<T extends string>({
   onChange,
 }: CategoryTabsProps<T>) {
   return (
-    <div className="flex justify-center gap-3 mb-16 flex-wrap">
+    <div className="flex justify-center gap-2 mb-12 flex-wrap">
       {tabs.map((tab) => (
         <button
           key={tab.key}
           onClick={() => onChange(tab.key)}
-          className={`px-8 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 ${
+          className={`px-6 py-2.5 rounded-full font-medium text-sm transition-all duration-200 ${
             activeKey === tab.key
-              ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-lg'
-              : 'bg-gray-200 text-gray-900 hover:bg-gray-300'
+              ? 'bg-gray-900 text-white'
+              : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
           }`}
         >
           {tab.label}

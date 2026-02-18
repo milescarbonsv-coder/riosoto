@@ -8,12 +8,14 @@ export interface FlavorProduct {
   color: string;
   desc: string;
   icon: string;
+  image?: string;
 }
 
 export interface OtherProduct {
   name: string;
   emoji: string;
   desc: string;
+  image?: string;
 }
 
 export interface ProductCategoryTab {

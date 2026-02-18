@@ -36,35 +36,35 @@ export default function Blog() {
         />
 
         {/* Blog Posts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
           {filteredPosts.map((post) => (
             <article
               key={post.id}
-              className="bg-white rounded-3xl shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer overflow-hidden border-t-4 border-orange-500"
+              className="bg-white rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300 cursor-pointer overflow-hidden"
             >
-              <PlaceholderImage emoji={post.image} gradient="from-orange-100 to-pink-100" />
+              <PlaceholderImage emoji={post.image} gradient="from-gray-50 to-gray-100" />
 
-              <div className="p-8">
+              <div className="p-7">
                 <div className="flex justify-between items-start mb-4">
-                  <span className="inline-block bg-orange-100 text-orange-700 px-4 py-1 rounded-full text-sm font-semibold">
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium">
                     {post.category}
                   </span>
-                  <span className="text-gray-500 text-sm">{post.readTime}</span>
+                  <span className="text-gray-400 text-xs">{post.readTime}</span>
                 </div>
 
-                <h3 className="text-xl font-black text-gray-900 mb-3 leading-tight">
+                <h3 className="text-lg font-bold text-gray-900 mb-3 leading-tight">
                   {post.title}
                 </h3>
 
-                <p className="text-gray-700 mb-6 text-sm leading-relaxed">
+                <p className="text-gray-500 mb-6 text-sm leading-relaxed">
                   {post.excerpt}
                 </p>
 
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-500 text-sm">{post.date}</span>
+                  <span className="text-gray-400 text-xs">{post.date}</span>
                   <button
                     onClick={() => console.log('Navigate to post:', post.id)}
-                    className="text-orange-600 font-bold hover:text-orange-700"
+                    className="text-orange-500 font-medium hover:text-orange-600 text-sm"
                   >
                     Leer →
                   </button>
@@ -75,7 +75,7 @@ export default function Blog() {
         </div>
 
         {filteredPosts.length === 0 && (
-          <p className="text-center text-gray-500 text-lg mb-20">
+          <p className="text-center text-gray-400 text-base mb-20">
             No hay artículos en esta categoría todavía.
           </p>
         )}

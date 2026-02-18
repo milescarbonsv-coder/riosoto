@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { FlavorProduct, FlavorHighlight } from '@/data/types';
 
 type FlavorCardProps =
@@ -9,8 +10,8 @@ export function FlavorCard(props: FlavorCardProps) {
     const { flavor } = props;
     return (
       <div className="group cursor-pointer">
-        <div className={`bg-gradient-to-br ${flavor.color} rounded-2xl sm:rounded-3xl h-24 sm:h-32 md:h-40 flex items-center justify-center relative overflow-hidden shadow-lg hover:shadow-xl transition transform hover:scale-105`}>
-          <p className="font-bold text-white text-xs sm:text-sm md:text-lg text-center px-2">{flavor.name}</p>
+        <div className={`bg-gradient-to-br ${flavor.color} rounded-2xl h-28 sm:h-36 md:h-40 flex items-center justify-center relative overflow-hidden transition-shadow duration-300 hover:shadow-lg`}>
+          <p className="font-semibold text-white text-xs sm:text-sm md:text-base text-center px-3">{flavor.name}</p>
         </div>
       </div>
     );
@@ -19,11 +20,22 @@ export function FlavorCard(props: FlavorCardProps) {
   const { flavor } = props;
   return (
     <div className="group cursor-pointer">
-      <div className={`bg-gradient-to-br ${flavor.color} rounded-3xl h-56 flex flex-col items-center justify-center relative overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105 p-4`}>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
-        <div className="text-6xl mb-3 relative z-10">{flavor.icon}</div>
-        <p className="font-black text-white text-lg text-center relative z-10">{flavor.name}</p>
-        <p className="text-white/90 text-sm mt-2 relative z-10">{flavor.desc}</p>
+      <div className={`bg-gradient-to-br ${flavor.color} rounded-2xl ${flavor.image ? 'h-64' : 'h-52'} flex flex-col items-center justify-end relative overflow-hidden transition-shadow duration-300 hover:shadow-lg p-4`}>
+        {flavor.image ? (
+          <Image
+            src={flavor.image}
+            alt={flavor.name}
+            width={160}
+            height={160}
+            className="absolute top-2 left-1/2 -translate-x-1/2 w-32 h-32 object-contain drop-shadow-lg"
+          />
+        ) : (
+          <div className="text-5xl mb-2">{flavor.icon}</div>
+        )}
+        <div className={flavor.image ? 'mt-auto text-center' : 'text-center'}>
+          <p className="font-bold text-white text-base">{flavor.name}</p>
+          <p className="text-white/80 text-xs mt-1">{flavor.desc}</p>
+        </div>
       </div>
     </div>
   );

@@ -8,9 +8,9 @@ interface PlaceholderImageProps {
 
 export function PlaceholderImage({
   emoji,
-  gradient = 'from-orange-100 to-pink-100',
-  height = 'h-40',
-  emojiSize = 'text-8xl',
+  gradient = 'from-gray-50 to-gray-100',
+  height = 'h-44',
+  emojiSize = 'text-7xl',
   className = '',
 }: PlaceholderImageProps) {
   return (

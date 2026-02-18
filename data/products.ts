@@ -8,15 +8,15 @@ export const productCategoryTabs: ProductCategoryTab[] = [
 
 export const products: Record<ProductCategory, FlavorProduct[] | OtherProduct[]> = {
   flavors: [
-    { name: "Choco Cream", color: "from-amber-700 to-amber-900", desc: "El clásico", icon: "🍫" },
-    { name: "Paly Kakao", color: "from-yellow-600 to-amber-800", desc: "Cacao salvadoreño", icon: "🍫" },
-    { name: "Choco Fresa", color: "from-red-500 to-pink-600", desc: "Dulce & afrutado", icon: "🍓" },
+    { name: "Choco Cream", color: "from-amber-700 to-amber-900", desc: "El clásico", icon: "🍫", image: "/products/choco-cream.svg" },
+    { name: "Paly Kakao", color: "from-yellow-600 to-amber-800", desc: "Cacao salvadoreño", icon: "🍫", image: "/products/paly-kakao.svg" },
+    { name: "Choco Fresa", color: "from-red-500 to-pink-600", desc: "Dulce & afrutado", icon: "🍓", image: "/products/choco-fresa.svg" },
     { name: "Choco Coco", color: "from-yellow-100 to-orange-200", desc: "Tropical", icon: "🥥" },
     { name: "Special", color: "from-blue-600 to-purple-600", desc: "Lo único", icon: "✨" },
     { name: "Chocotron", color: "from-amber-700 to-orange-800", desc: "Intenso", icon: "⚡" },
     { name: "Choco Turbo", color: "from-amber-500 to-red-600", desc: "Explosivo", icon: "🚀" },
     { name: "Torbellino", color: "from-purple-600 to-pink-600", desc: "Swirl único", icon: "🌀" },
-    { name: "Campeón", color: "from-green-600 to-blue-600", desc: "Ganador", icon: "🏆" },
+    { name: "Campeón", color: "from-green-600 to-blue-600", desc: "Ganador", icon: "🏆", image: "/products/campeon-fresa.svg" },
     { name: "Solaris", color: "from-yellow-400 to-orange-500", desc: "Brillante", icon: "☀️" },
     { name: "Nance", color: "from-yellow-500 to-orange-600", desc: "Frutal", icon: "🍯" },
     { name: "Coco", color: "from-yellow-100 to-yellow-200", desc: "Suave", icon: "🥥" },
@@ -25,7 +25,7 @@ export const products: Record<ProductCategory, FlavorProduct[] | OtherProduct[]>
     { name: "Horchata", color: "from-orange-300 to-yellow-300", desc: "Clásico salvadoreño", icon: "🥛" },
   ] satisfies FlavorProduct[],
   presentations: [
-    { name: "Mister Cono", emoji: "🍦", desc: "En tu mano" },
+    { name: "Mister Cono", emoji: "🍦", desc: "En tu mano", image: "/products/mister-cono.svg" },
     { name: "Sandwich Ice Cream", emoji: "🥪", desc: "Entre pan" },
     { name: "Heladito", emoji: "🍧", desc: "De bolsillo" },
     { name: "Cookies and Cream", emoji: "🍪", desc: "Con sorpresa" },

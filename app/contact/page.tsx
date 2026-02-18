@@ -55,7 +55,7 @@ export default function Contact() {
   };
 
   const inputClasses = (field: string) =>
-    `w-full border-2 ${errors[field] ? 'border-red-400' : 'border-gray-300'} rounded-2xl p-4 focus:border-orange-500 focus:outline-none transition text-lg`;
+    `w-full border ${errors[field] ? 'border-red-400' : 'border-gray-200'} rounded-xl p-4 focus:border-orange-400 focus:outline-none transition text-base`;
 
   return (
     <main className="bg-white">
@@ -66,44 +66,44 @@ export default function Contact() {
 
       <div className="max-w-6xl mx-auto px-4 py-20">
         {/* Contact Type Selection */}
-        <div className="flex justify-center gap-4 mb-16 flex-wrap">
+        <div className="flex justify-center gap-3 mb-14 flex-wrap">
           <button
             onClick={() => handleTypeChange('consumer')}
-            className={`px-8 py-4 rounded-full font-bold text-lg transition ${
+            className={`px-6 py-2.5 rounded-full font-medium text-sm transition-all duration-200 ${
               contactType === 'consumer'
-                ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-lg'
-                : 'bg-gray-200 text-gray-900 hover:bg-gray-300'
+                ? 'bg-gray-900 text-white'
+                : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
             }`}
           >
-            💬 Soy Cliente
+            Soy Cliente
           </button>
           <button
             onClick={() => handleTypeChange('distributor')}
-            className={`px-8 py-4 rounded-full font-bold text-lg transition ${
+            className={`px-6 py-2.5 rounded-full font-medium text-sm transition-all duration-200 ${
               contactType === 'distributor'
-                ? 'bg-gradient-to-r from-orange-500 to-pink-500 text-white shadow-lg'
-                : 'bg-gray-200 text-gray-900 hover:bg-gray-300'
+                ? 'bg-gray-900 text-white'
+                : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
             }`}
           >
-            🏪 Soy Distribuidor
+            Soy Distribuidor
           </button>
         </div>
 
-        <div className="grid grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white p-10 rounded-3xl shadow-lg border-t-4 border-orange-500">
-            <h2 className="text-3xl font-black mb-2 text-gray-900">
-              {contactType === 'consumer' ? '💌 Tu Opinión Importa' : '🤝 Trabajemos Juntos'}
+          <div>
+            <h2 className="text-2xl font-bold mb-2 text-gray-900">
+              {contactType === 'consumer' ? 'Tu Opinión Importa' : 'Trabajemos Juntos'}
             </h2>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-500 mb-8 text-sm leading-relaxed">
               {contactType === 'consumer'
                 ? 'Cuéntanos qué piensas de Riosoto, dónde lo encontraste, o qué sabor desearías probar.'
                 : 'Comparte tu información y hablemos sobre cómo Riosoto puede llegar a más salvadoreños a través de tu negocio.'}
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-5">
               <div>
-                <label className="block font-bold mb-3 text-gray-900">Tu Nombre *</label>
+                <label className="block font-medium mb-2 text-gray-900 text-sm">Tu Nombre *</label>
                 <input
                   type="text"
                   name="name"
@@ -111,11 +111,11 @@ export default function Contact() {
                   className={inputClasses('name')}
                   placeholder="¿Cómo te llamas?"
                 />
-                {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
+                {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
               </div>
 
               <div>
-                <label className="block font-bold mb-3 text-gray-900">Email *</label>
+                <label className="block font-medium mb-2 text-gray-900 text-sm">Email *</label>
                 <input
                   type="email"
                   name="email"
@@ -123,13 +123,13 @@ export default function Contact() {
                   className={inputClasses('email')}
                   placeholder="tu@email.com"
                 />
-                {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+                {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
               </div>
 
               {contactType === 'distributor' && (
                 <>
                   <div>
-                    <label className="block font-bold mb-3 text-gray-900">Empresa/Negocio *</label>
+                    <label className="block font-medium mb-2 text-gray-900 text-sm">Empresa/Negocio *</label>
                     <input
                       type="text"
                       name="business"
@@ -137,11 +137,11 @@ export default function Contact() {
                       className={inputClasses('business')}
                       placeholder="Nombre de tu negocio"
                     />
-                    {errors.business && <p className="text-red-500 text-sm mt-1">{errors.business}</p>}
+                    {errors.business && <p className="text-red-500 text-xs mt-1">{errors.business}</p>}
                   </div>
 
                   <div>
-                    <label className="block font-bold mb-3 text-gray-900">¿Qué eres? *</label>
+                    <label className="block font-medium mb-2 text-gray-900 text-sm">¿Qué eres? *</label>
                     <select
                       name="businessType"
                       required
@@ -153,11 +153,11 @@ export default function Contact() {
                       <option value="vendor">Vendedor/Carrito</option>
                       <option value="other">Otro</option>
                     </select>
-                    {errors.businessType && <p className="text-red-500 text-sm mt-1">{errors.businessType}</p>}
+                    {errors.businessType && <p className="text-red-500 text-xs mt-1">{errors.businessType}</p>}
                   </div>
 
                   <div>
-                    <label className="block font-bold mb-3 text-gray-900">Ubicación (Ciudad/Región) *</label>
+                    <label className="block font-medium mb-2 text-gray-900 text-sm">Ubicación (Ciudad/Región) *</label>
                     <input
                       type="text"
                       name="location"
@@ -165,13 +165,13 @@ export default function Contact() {
                       className={inputClasses('location')}
                       placeholder="¿Dónde estás?"
                     />
-                    {errors.location && <p className="text-red-500 text-sm mt-1">{errors.location}</p>}
+                    {errors.location && <p className="text-red-500 text-xs mt-1">{errors.location}</p>}
                   </div>
                 </>
               )}
 
               <div>
-                <label className="block font-bold mb-3 text-gray-900">
+                <label className="block font-medium mb-2 text-gray-900 text-sm">
                   {contactType === 'consumer' ? 'Tu Mensaje' : 'Cuéntanos Más'} *
                 </label>
                 <textarea
@@ -183,19 +183,19 @@ export default function Contact() {
                     ? '¿Qué piensas de Riosoto? ¿Qué sabor amas? ¿Dónde lo compraste?'
                     : 'Cuéntanos sobre tu negocio y por qué te interesa distribuir Riosoto.'}
                 ></textarea>
-                {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
+                {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-4 rounded-2xl font-bold hover:shadow-lg transition text-lg"
+                className="w-full bg-gray-900 text-white py-4 rounded-xl font-medium hover:bg-gray-800 transition-all duration-300"
               >
                 {contactType === 'consumer' ? 'Enviar Mi Opinión' : 'Solicitar Información'}
               </button>
 
               {submitted && (
-                <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-2xl text-green-700 font-semibold">
-                  ✅ ¡Gracias! Nos contactaremos muy pronto.
+                <div className="bg-green-50 border border-green-200 p-5 rounded-xl text-green-700 text-sm font-medium">
+                  ¡Gracias! Nos contactaremos muy pronto.
                 </div>
               )}
             </form>
@@ -203,26 +203,26 @@ export default function Contact() {
 
           {/* Contact Info + Social */}
           <div className="space-y-6">
-            <div className="bg-white p-10 rounded-3xl shadow-lg border-t-4 border-purple-500">
-              <h2 className="text-3xl font-black mb-8 text-gray-900">Contacto Directo</h2>
+            <div className="bg-gray-50 p-8 rounded-2xl">
+              <h2 className="text-xl font-bold mb-6 text-gray-900">Contacto Directo</h2>
 
-              <div className="space-y-8">
+              <div className="space-y-6">
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-3 text-lg">📍 Dirección</h3>
-                  <p className="text-gray-700 text-lg">1a. Calle Oriente #1008<br/>San Salvador, El Salvador</p>
+                  <h3 className="font-medium text-gray-900 mb-1 text-sm">Dirección</h3>
+                  <p className="text-gray-500">1a. Calle Oriente #1008<br/>San Salvador, El Salvador</p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-3 text-lg">📧 Email</h3>
-                  <p className="text-gray-700 text-lg">consultas@riosoto.com</p>
+                  <h3 className="font-medium text-gray-900 mb-1 text-sm">Email</h3>
+                  <p className="text-gray-500">consultas@riosoto.com</p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-3 text-lg">📍 Google Maps</h3>
+                  <h3 className="font-medium text-gray-900 mb-1 text-sm">Google Maps</h3>
                   <a
                     href="https://goo.gl/maps/nttC9PqK6WZXsVRBA"
                     target="_blank"
-                    className="text-orange-600 hover:text-orange-700 font-semibold text-lg inline-block"
+                    className="text-orange-500 hover:text-orange-600 font-medium inline-block text-sm"
                   >
                     Ver en el Mapa →
                   </a>
@@ -231,30 +231,30 @@ export default function Contact() {
             </div>
 
             {/* Social Media */}
-            <div className="bg-gradient-to-br from-pink-100 to-purple-100 p-10 rounded-3xl border-t-4 border-pink-500">
-              <h3 className="font-black text-gray-900 mb-6 text-lg">📱 Síguenos</h3>
-              <p className="text-gray-700 mb-6 font-light">
-                Encuentra Riosoto en redes sociales. Comparte tu momento con nosotros.
+            <div className="bg-gray-50 p-8 rounded-2xl">
+              <h3 className="font-bold text-gray-900 mb-4 text-sm">Síguenos</h3>
+              <p className="text-gray-500 mb-5 text-sm">
+                Encuentra Riosoto en redes sociales.
               </p>
-              <div className="space-y-3">
-                <a href="#" className="block text-pink-600 font-bold hover:text-pink-700">📸 @riosotohelados en Instagram</a>
-                <a href="#" className="block text-pink-600 font-bold hover:text-pink-700">👍 Riosoto en Facebook</a>
-                <a href="#" className="block text-pink-600 font-bold hover:text-pink-700">🎵 Riosoto en TikTok</a>
+              <div className="space-y-2">
+                <a href="#" className="block text-orange-500 font-medium hover:text-orange-600 text-sm">@riosotohelados en Instagram</a>
+                <a href="#" className="block text-orange-500 font-medium hover:text-orange-600 text-sm">Riosoto en Facebook</a>
+                <a href="#" className="block text-orange-500 font-medium hover:text-orange-600 text-sm">Riosoto en TikTok</a>
               </div>
             </div>
 
             {contactType === 'consumer' && (
-              <div className="bg-gradient-to-br from-orange-100 to-yellow-100 p-10 rounded-3xl border-t-4 border-orange-500">
-                <h3 className="font-black text-gray-900 mb-3 text-lg">⏱️ Respuesta Rápida</h3>
-                <p className="text-gray-800">Tu opinión nos importa. Respondemos en 24 horas.</p>
+              <div className="bg-orange-50 p-8 rounded-2xl">
+                <h3 className="font-bold text-gray-900 mb-2 text-sm">Respuesta Rápida</h3>
+                <p className="text-gray-500 text-sm">Tu opinión nos importa. Respondemos en 24 horas.</p>
               </div>
             )}
 
             {contactType === 'distributor' && (
-              <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-10 rounded-3xl border-t-4 border-blue-500">
-                <h3 className="font-black text-gray-900 mb-3 text-lg">🤝 Oportunidad Real</h3>
-                <p className="text-gray-800 mb-4">Si amas Riosoto y quieres que llegue a más gente, hablemos. Hay margen para todos.</p>
-                <p className="text-gray-800 text-sm">Distribuidores, supermercados y vendedores bienvenidos.</p>
+              <div className="bg-gray-50 p-8 rounded-2xl">
+                <h3 className="font-bold text-gray-900 mb-2 text-sm">Oportunidad Real</h3>
+                <p className="text-gray-500 text-sm mb-2">Si amas Riosoto y quieres que llegue a más gente, hablemos.</p>
+                <p className="text-gray-400 text-xs">Distribuidores, supermercados y vendedores bienvenidos.</p>
               </div>
             )}
           </div>
@@ -262,10 +262,10 @@ export default function Contact() {
       </div>
 
       {/* Trust CTA */}
-      <section className="py-16 px-4 bg-gray-900 text-white text-center mt-20">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-black mb-4">Esperamos tu Mensaje</h2>
-          <p className="text-lg text-gray-300">
+      <section className="py-20 px-4 bg-gray-900 text-white text-center mt-20">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Esperamos tu Mensaje</h2>
+          <p className="text-gray-400 leading-relaxed">
             Riosoto es para todos. Cliente, distribuidor, o simplemente alguien que quiere saber más: queremos escucharte.
           </p>
         </div>

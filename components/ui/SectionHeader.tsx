@@ -12,14 +12,14 @@ export function SectionHeader({
   subtitle,
   centered = true,
   className = '',
-  titleClassName = 'text-2xl sm:text-3xl md:text-5xl font-black text-gray-900',
-  subtitleClassName = 'text-gray-600 text-sm sm:text-base md:text-lg',
+  titleClassName = 'text-3xl md:text-5xl font-bold text-gray-900',
+  subtitleClassName = 'text-gray-500 text-base md:text-lg',
 }: SectionHeaderProps) {
   return (
     <div className={`${centered ? 'text-center' : ''} ${className}`}>
       <h2 className={titleClassName}>{title}</h2>
       {subtitle && (
-        <p className={`${subtitleClassName} mt-2 sm:mt-3 md:mt-4`}>{subtitle}</p>
+        <p className={`${subtitleClassName} mt-3 md:mt-4`}>{subtitle}</p>
       )}
     </div>
   );

@@ -4,24 +4,24 @@ import { mainNavLinks } from '@/data/navigation';
 
 export function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-md">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/">
-          <Image src="/logo.svg" alt="Riosoto" width={160} height={48} className="h-10 sm:h-12 w-auto" />
+          <Image src="/logo.svg" alt="Riosoto" width={300} height={90} className="h-20 sm:h-24 w-auto" />
         </Link>
         <div className="flex gap-8 items-center">
           {mainNavLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="font-semibold text-gray-700 hover:text-orange-500 transition"
+              className="font-medium text-sm text-gray-500 hover:text-gray-900 transition"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="/contact"
-            className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-2 rounded-full font-bold hover:shadow-lg transition"
+            className="bg-gray-900 text-white px-6 py-2.5 rounded-full font-medium text-sm hover:bg-gray-800 transition"
           >
             Contacto
           </Link>

@@ -17,19 +17,19 @@ export function FeatureCard({
 }: FeatureCardProps) {
   if (variant === 'about') {
     return (
-      <div className={`bg-gradient-to-br ${gradient ?? ''} p-10 rounded-3xl border-t-4 ${borderColor}`}>
-        <div className="text-6xl mb-6">{emoji}</div>
-        <h3 className="text-2xl font-black mb-4 text-gray-900">{title}</h3>
-        <p className="text-gray-700 text-lg">{description}</p>
+      <div className={`bg-gradient-to-br ${gradient ?? ''} p-10 rounded-2xl`}>
+        <div className="text-5xl mb-5">{emoji}</div>
+        <h3 className="text-xl font-bold mb-3 text-gray-900">{title}</h3>
+        <p className="text-gray-600 leading-relaxed">{description}</p>
       </div>
     );
   }
 
   return (
-    <div className={`bg-white p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-xl transition border-b-4 ${borderColor}`}>
-      <div className="text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6">{emoji}</div>
-      <h3 className="text-lg sm:text-xl md:text-2xl font-black mb-3 sm:mb-4 text-gray-900">{title}</h3>
-      <p className="text-sm sm:text-base md:text-lg text-gray-700">{description}</p>
+    <div className={`bg-white p-8 md:p-10 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300`}>
+      <div className="text-4xl md:text-5xl mb-5">{emoji}</div>
+      <h3 className="text-lg md:text-xl font-bold mb-3 text-gray-900">{title}</h3>
+      <p className="text-gray-500 leading-relaxed">{description}</p>
     </div>
   );
 }
