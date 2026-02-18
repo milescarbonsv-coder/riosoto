@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { blogPosts, blogCategories } from '@/data/blog';
 import type { BlogCategory } from '@/data/types';
 import { PageHeader } from '@/components/ui/PageHeader';
@@ -9,6 +10,7 @@ import { PlaceholderImage } from '@/components/ui/PlaceholderImage';
 import { NewsletterForm } from '@/components/ui/NewsletterForm';
 
 export default function Blog() {
+  const t = useTranslations('blog');
   const [activeCategory, setActiveCategory] = useState<BlogCategory>('All');
 
   const filteredPosts = activeCategory === 'All'
@@ -17,15 +19,16 @@ export default function Blog() {
 
   const categoryTabs = blogCategories.map((cat) => ({
     key: cat,
-    label: cat === 'All' ? 'Todas' : cat,
+    label: cat === 'All' ? t('categoryAll') : cat,
   }));
 
   return (
     <main>
       <PageHeader
-        tag="HISTORIAS"
-        title="El Blog de Riosoto"
-        description="Historias de sabor, tradición y los momentos que hacen especial a Riosoto."
+        tag={t('headerTag')}
+        title={t('headerTitle')}
+        description={t('headerDescription')}
+        centered
       />
 
       <div className="max-w-7xl mx-auto px-6 py-20">
@@ -53,11 +56,11 @@ export default function Blog() {
                 </div>
 
                 <h3 className="text-lg font-bold text-slate-900 mb-3 leading-tight group-hover:text-rojo transition-colors duration-200">
-                  {post.title}
+                  {t(`posts.${post.id}.title`)}
                 </h3>
 
                 <p className="text-slate-500 mb-6 text-sm leading-relaxed">
-                  {post.excerpt}
+                  {t(`posts.${post.id}.excerpt`)}
                 </p>
 
                 <div className="flex justify-between items-center">
@@ -66,7 +69,7 @@ export default function Blog() {
                     onClick={() => console.log('Navigate to post:', post.id)}
                     className="text-rojo font-semibold hover:text-rojo-dark text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200"
                   >
-                    Leer
+                    {t('readButton')}
                     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                   </button>
                 </div>
@@ -78,7 +81,7 @@ export default function Blog() {
         {filteredPosts.length === 0 && (
           <div className="text-center py-16 mb-20">
             <div className="text-6xl mb-4">🍦</div>
-            <p className="text-slate-500 text-lg">No hay artículos en esta categoría todavía.</p>
+            <p className="text-slate-500 text-lg">{t('emptyState')}</p>
           </div>
         )}
 
