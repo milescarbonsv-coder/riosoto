@@ -4,81 +4,90 @@ import { PlaceholderImage } from '@/components/ui/PlaceholderImage';
 
 export default function Recipes() {
   return (
-    <main className="bg-white">
+    <main>
       <PageHeader
         tag="CREA MOMENTOS ESPECIALES"
         title="Recetas con Riosoto"
         description="Inspiración para usar nuestro helado en postres increíbles."
       />
 
-      <div className="max-w-6xl mx-auto px-4 py-20">
+      <div className="max-w-7xl mx-auto px-6 py-20">
         {/* Recipes Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
           {recipes.map((recipe) => (
             <article
               key={recipe.id}
-              className="bg-white rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300 cursor-pointer overflow-hidden"
+              className="bg-white rounded-3xl border border-amber-100/50 hover-lift cursor-pointer overflow-hidden group"
             >
-              <PlaceholderImage emoji={recipe.emoji} gradient="from-gray-50 to-orange-50" />
+              <PlaceholderImage emoji={recipe.emoji} gradient="from-amber-50 to-orange-50" />
 
               <div className="p-7">
                 <div className="flex justify-between items-start mb-4">
-                  <span className="inline-block bg-orange-50 text-orange-600 px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-semibold">
                     {recipe.difficulty}
                   </span>
-                  <span className="text-gray-400 text-xs">{recipe.prepTime}</span>
+                  <span className="text-amber-800/30 text-xs">{recipe.prepTime}</span>
                 </div>
 
-                <h3 className="text-lg font-bold text-gray-900 mb-3 leading-tight">
+                <h3 className="text-lg font-bold text-amber-950 mb-3 leading-tight group-hover:text-accent transition-colors duration-200">
                   {recipe.title}
                 </h3>
 
-                <p className="text-gray-500 mb-5 text-sm leading-relaxed">
+                <p className="text-amber-800/40 mb-5 text-sm leading-relaxed">
                   {recipe.excerpt}
                 </p>
 
                 <div className="mb-5">
-                  <p className="text-xs font-medium text-gray-900 mb-2 uppercase tracking-wide">Ingredientes</p>
-                  <ul className="text-sm text-gray-500 space-y-1">
+                  <p className="text-xs font-semibold text-amber-950 mb-2 uppercase tracking-wide">Ingredientes</p>
+                  <ul className="text-sm text-amber-800/40 space-y-1">
                     {recipe.ingredients.slice(0, 3).map((ingredient, idx) => (
-                      <li key={idx}>• {ingredient}</li>
+                      <li key={idx} className="flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent/40 flex-shrink-0" />
+                        {ingredient}
+                      </li>
                     ))}
                     {recipe.ingredients.length > 3 && (
-                      <li className="text-gray-400">+ {recipe.ingredients.length - 3} más</li>
+                      <li className="text-amber-800/30">+ {recipe.ingredients.length - 3} más</li>
                     )}
                   </ul>
                 </div>
 
-                <button className="text-orange-500 font-medium hover:text-orange-600 text-sm">
-                  Ver Receta Completa →
+                <button className="text-accent font-semibold hover:text-accent-dark text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200">
+                  Ver Receta Completa
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </button>
               </div>
             </article>
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="bg-gray-900 text-white p-12 rounded-2xl text-center">
-          <h2 className="text-3xl font-bold mb-4">¿Tu Receta con Riosoto?</h2>
-          <p className="text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Crea tu propia receta con nuestros helados y comparte con nosotros. Podría aparecer aquí.
-          </p>
-          <a href="/contact" className="inline-block bg-white text-gray-900 px-10 py-4 rounded-full font-semibold hover:shadow-lg transition-all duration-300">
-            Envía tu Receta
-          </a>
+        {/* CTA */}
+        <div className="bg-amber-950 text-white p-12 rounded-3xl text-center relative overflow-hidden">
+          <div className="absolute top-0 right-1/4 w-48 h-48 bg-accent/10 rounded-full blur-3xl" />
+          <div className="relative z-10">
+            <h2 className="text-3xl font-bold mb-4">¿Tu Receta con Riosoto?</h2>
+            <p className="text-amber-100/50 mb-8 max-w-2xl mx-auto leading-relaxed">
+              Crea tu propia receta con nuestros helados y comparte con nosotros. Podría aparecer aquí.
+            </p>
+            <a href="/contact" className="inline-block bg-accent text-white px-10 py-4 rounded-full font-semibold hover:bg-accent-dark hover:shadow-lg hover:shadow-accent/25 transition-all duration-300">
+              Envía tu Receta
+            </a>
+          </div>
         </div>
 
-        {/* Tips Section */}
+        {/* Tips */}
         <div className="mt-24">
-          <p className="text-orange-500 font-semibold text-sm text-center mb-3 tracking-[0.2em] uppercase">CONSEJOS</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 text-gray-900">Consejos para Mejores Recetas</h2>
+          <div className="text-center mb-14">
+            <span className="inline-block text-accent font-semibold text-xs tracking-[0.25em] uppercase mb-4">Consejos</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-amber-950">Consejos para Mejores Recetas</h2>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {recipeTips.map((tip) => (
-              <div key={tip.title} className="bg-gray-50 p-8 rounded-2xl">
-                <div className="text-5xl mb-4">{tip.emoji}</div>
-                <h3 className="text-lg font-bold mb-3 text-gray-900">{tip.title}</h3>
-                <p className="text-gray-500 leading-relaxed">{tip.description}</p>
+              <div key={tip.title} className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-3xl border border-amber-100/50 hover-lift">
+                <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center text-3xl mb-5 shadow-sm">{tip.emoji}</div>
+                <h3 className="text-lg font-bold mb-3 text-amber-950">{tip.title}</h3>
+                <p className="text-amber-800/50 leading-relaxed">{tip.description}</p>
               </div>
             ))}
           </div>

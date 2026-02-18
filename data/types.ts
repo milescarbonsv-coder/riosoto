@@ -1,7 +1,7 @@
 // ============================
 // Product Types
 // ============================
-export type ProductCategory = 'flavors' | 'presentations' | 'bulk';
+export type ProductCategory = 'paletas' | 'conos' | 'individual' | 'bulk';
 
 export interface FlavorProduct {
   name: string;
@@ -9,6 +9,7 @@ export interface FlavorProduct {
   desc: string;
   icon: string;
   image?: string;
+  price?: string;
 }
 
 export interface OtherProduct {
@@ -16,6 +17,7 @@ export interface OtherProduct {
   emoji: string;
   desc: string;
   image?: string;
+  price?: string;
 }
 
 export interface ProductCategoryTab {
@@ -91,6 +93,7 @@ export interface StatItem {
 export interface FlavorHighlight {
   name: string;
   color: string;
+  image?: string;
 }
 
 export interface FeatureCardData {

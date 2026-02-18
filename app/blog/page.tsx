@@ -21,14 +21,14 @@ export default function Blog() {
   }));
 
   return (
-    <main className="bg-white">
+    <main>
       <PageHeader
         tag="HISTORIAS"
         title="El Blog de Riosoto"
         description="Historias de sabor, tradición y los momentos que hacen especial a Riosoto."
       />
 
-      <div className="max-w-6xl mx-auto px-4 py-20">
+      <div className="max-w-7xl mx-auto px-6 py-20">
         <CategoryTabs
           tabs={categoryTabs}
           activeKey={activeCategory}
@@ -40,33 +40,34 @@ export default function Blog() {
           {filteredPosts.map((post) => (
             <article
               key={post.id}
-              className="bg-white rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300 cursor-pointer overflow-hidden"
+              className="bg-white rounded-3xl border border-amber-100/50 hover-lift cursor-pointer overflow-hidden group"
             >
-              <PlaceholderImage emoji={post.image} gradient="from-gray-50 to-gray-100" />
+              <PlaceholderImage emoji={post.image} gradient="from-amber-50 to-orange-50" />
 
               <div className="p-7">
                 <div className="flex justify-between items-start mb-4">
-                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="inline-block bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-semibold">
                     {post.category}
                   </span>
-                  <span className="text-gray-400 text-xs">{post.readTime}</span>
+                  <span className="text-amber-800/30 text-xs">{post.readTime}</span>
                 </div>
 
-                <h3 className="text-lg font-bold text-gray-900 mb-3 leading-tight">
+                <h3 className="text-lg font-bold text-amber-950 mb-3 leading-tight group-hover:text-accent transition-colors duration-200">
                   {post.title}
                 </h3>
 
-                <p className="text-gray-500 mb-6 text-sm leading-relaxed">
+                <p className="text-amber-800/40 mb-6 text-sm leading-relaxed">
                   {post.excerpt}
                 </p>
 
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-400 text-xs">{post.date}</span>
+                  <span className="text-amber-800/30 text-xs">{post.date}</span>
                   <button
                     onClick={() => console.log('Navigate to post:', post.id)}
-                    className="text-orange-500 font-medium hover:text-orange-600 text-sm"
+                    className="text-accent font-semibold hover:text-accent-dark text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200"
                   >
-                    Leer →
+                    Leer
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                   </button>
                 </div>
               </div>
@@ -75,12 +76,13 @@ export default function Blog() {
         </div>
 
         {filteredPosts.length === 0 && (
-          <p className="text-center text-gray-400 text-base mb-20">
-            No hay artículos en esta categoría todavía.
-          </p>
+          <div className="text-center py-16 mb-20">
+            <div className="text-6xl mb-4">🍦</div>
+            <p className="text-amber-800/40 text-lg">No hay artículos en esta categoría todavía.</p>
+          </div>
         )}
 
-        {/* Newsletter CTA */}
+        {/* Newsletter */}
         <NewsletterForm />
       </div>
     </main>

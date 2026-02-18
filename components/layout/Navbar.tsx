@@ -4,24 +4,24 @@ import { mainNavLinks } from '@/data/navigation';
 
 export function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link href="/">
-          <Image src="/logo.svg" alt="Riosoto" width={300} height={90} className="h-20 sm:h-24 w-auto" />
+    <nav className="sticky top-0 z-50 glass border-b border-amber-100/50">
+      <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+        <Link href="/" className="flex-shrink-0">
+          <Image src="/logo.svg" alt="Riosoto" width={300} height={90} className="h-16 sm:h-20 w-auto" />
         </Link>
         <div className="flex gap-8 items-center">
           {mainNavLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="font-medium text-sm text-gray-500 hover:text-gray-900 transition"
+              className="font-medium text-sm text-amber-900/60 hover:text-amber-900 transition-colors duration-200 hidden md:block"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="/contact"
-            className="bg-gray-900 text-white px-6 py-2.5 rounded-full font-medium text-sm hover:bg-gray-800 transition"
+            className="bg-accent text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-accent-dark hover:shadow-lg hover:shadow-accent/25 transition-all duration-300"
           >
             Contacto
           </Link>
