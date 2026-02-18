@@ -125,3 +125,25 @@ export interface ContactFormData {
   message: string;
   contactType: ContactType;
 }
+
+// ============================
+// Careers / Empleo Types
+// ============================
+export interface JobPosition {
+  id: string;
+  title: string;
+  location: string;
+  country: string;
+  department: string;
+  type: string;
+  description: string;
+  requirements: string[];
+}
+
+export interface CareerFormData {
+  name: string;
+  email: string;
+  phone: string;
+  position: string;
+  message: string;
+}

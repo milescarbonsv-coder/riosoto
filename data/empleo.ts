@@ -1,0 +1,96 @@
+import type { JobPosition } from './types';
+
+export const jobPositions: JobPosition[] = [
+  // El Salvador
+  {
+    id: 'prod-operador-sv',
+    title: 'Operador de Producción',
+    location: 'San Salvador',
+    country: 'El Salvador',
+    department: 'Planta',
+    type: 'Tiempo Completo',
+    description: 'Responsable de operar las líneas de producción de helados, asegurando calidad y eficiencia en cada lote.',
+    requirements: [
+      'Experiencia en manufactura de alimentos (deseable)',
+      'Disponibilidad para turnos rotativos',
+      'Bachillerato completo',
+      'Trabajo en equipo y atención al detalle',
+    ],
+  },
+  {
+    id: 'maint-tecnico-sv',
+    title: 'Técnico de Mantenimiento',
+    location: 'San Salvador',
+    country: 'El Salvador',
+    department: 'Planta',
+    type: 'Tiempo Completo',
+    description: 'Mantenimiento preventivo y correctivo de equipos de refrigeración y líneas de producción.',
+    requirements: [
+      'Técnico en mecánica industrial o electromecánica',
+      '2+ años de experiencia en mantenimiento industrial',
+      'Conocimiento en sistemas de refrigeración',
+      'Disponibilidad para emergencias',
+    ],
+  },
+  {
+    id: 'ventas-ejecutivo-sv',
+    title: 'Ejecutivo de Ventas',
+    location: 'San Salvador',
+    country: 'El Salvador',
+    department: 'Comercial',
+    type: 'Tiempo Completo',
+    description: 'Gestión de cartera de clientes y desarrollo de nuevos puntos de venta en la zona metropolitana.',
+    requirements: [
+      'Licenciatura en Mercadeo, Administración o afín',
+      '1+ año en ventas de consumo masivo',
+      'Licencia de conducir vigente',
+      'Habilidades de negociación y comunicación',
+    ],
+  },
+  {
+    id: 'mkt-disenador-sv',
+    title: 'Diseñador Gráfico',
+    location: 'San Salvador',
+    country: 'El Salvador',
+    department: 'Marketing',
+    type: 'Tiempo Completo',
+    description: 'Creación de materiales visuales para campañas, empaque y redes sociales de la marca Riosoto.',
+    requirements: [
+      'Licenciatura en Diseño Gráfico o afín',
+      'Dominio de Adobe Creative Suite',
+      'Portfolio con trabajo en branding o consumo masivo',
+      'Creatividad y pasión por la marca',
+    ],
+  },
+  // Honduras
+  {
+    id: 'log-supervisor-hn',
+    title: 'Supervisor de Distribución',
+    location: 'Tegucigalpa',
+    country: 'Honduras',
+    department: 'Logística',
+    type: 'Tiempo Completo',
+    description: 'Coordinación de rutas de distribución y supervisión de equipos de reparto en la zona central de Honduras.',
+    requirements: [
+      'Licenciatura en Logística, Administración o afín',
+      '3+ años en distribución de productos refrigerados',
+      'Experiencia liderando equipos',
+      'Conocimiento de rutas en zona central',
+    ],
+  },
+  {
+    id: 'ventas-rep-hn',
+    title: 'Representante de Ventas',
+    location: 'San Pedro Sula',
+    country: 'Honduras',
+    department: 'Comercial',
+    type: 'Tiempo Completo',
+    description: 'Expansión de la presencia de Riosoto en el norte de Honduras. Captación y atención de clientes.',
+    requirements: [
+      'Experiencia en ventas de campo',
+      'Conocimiento del mercado de San Pedro Sula',
+      'Licencia de conducir vigente',
+      'Orientación a resultados',
+    ],
+  },
+];
