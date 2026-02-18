@@ -25,7 +25,7 @@ export const timelineEntries: TimelineEntry[] = [
     bgColor: "bg-blue-50",
     borderColor: "border-blue-500",
     title: "Se Expande en la Región",
-    description: "Riosoto cruza fronteras. Honduras. Guatemala. Llevamos el sabor salvadoreño a toda Centroamérica.",
+    description: "Riosoto cruza fronteras. Honduras. Guatemala. Un sabor que conecta a toda Centroamérica.",
     yearTextSize: "text-2xl",
   },
   {
@@ -58,8 +58,8 @@ export const values: ValueCard[] = [
   },
   {
     emoji: "❤️",
-    title: "Amor por El Salvador",
-    description: "Somos salvadoreños. Raíces profundas. Entendemos tu cultura, tu mercado, tu familia. No somos una empresa corporativa—somos vuestros.",
+    title: "Amor por Centroamérica",
+    description: "Nacimos en El Salvador, pero Centroamérica es nuestro hogar. Entendemos tu cultura, tu mercado, tu familia. No somos una empresa corporativa—somos tuyos.",
     gradient: "from-purple-100 to-blue-100",
     borderColor: "border-purple-500",
   },
@@ -80,8 +80,8 @@ export const values: ValueCard[] = [
 ];
 
 export const aboutStats: StatItem[] = [
-  { value: "80", label: "Años de Historia", color: "text-orange-600" },
-  { value: "30+", label: "Sabores Únicos", color: "text-pink-600" },
-  { value: "3", label: "Países", color: "text-purple-600" },
-  { value: "∞", label: "Momentos Especiales", color: "text-blue-600" },
+  { value: "80", label: "Años de Historia", color: "text-rojo" },
+  { value: "30+", label: "Sabores Únicos", color: "text-azul" },
+  { value: "3", label: "Países", color: "text-amarillo-dark" },
+  { value: "∞", label: "Momentos Especiales", color: "text-rojo-dark" },
 ];

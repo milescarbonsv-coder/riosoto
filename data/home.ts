@@ -21,9 +21,9 @@ export const heritageStats: StatItem[] = [
 export const featureCards: FeatureCardData[] = [
   {
     emoji: "👨‍👩‍👧‍👦",
-    title: "Familia Salvadoreña",
-    description: "Empresa 100% salvadoreña con raíces profundas. Conocemos tu mercado mejor que nadie.",
-    borderColor: "border-orange-400",
+    title: "Raíces Centroamericanas",
+    description: "Nacidos en El Salvador, presentes en toda Centroamérica. Conocemos tu mercado mejor que nadie.",
+    borderColor: "border-rojo",
   },
   {
     emoji: "✨",

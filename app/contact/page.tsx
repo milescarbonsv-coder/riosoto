@@ -54,7 +54,7 @@ export default function Contact() {
   };
 
   const inputClasses = (field: string) =>
-    `w-full border ${errors[field] ? 'border-red-400' : 'border-amber-200/50'} bg-white rounded-2xl p-4 focus:border-accent focus:ring-2 focus:ring-accent/20 focus:outline-none transition-all text-base text-amber-950`;
+    `w-full border ${errors[field] ? 'border-red-400' : 'border-slate-200'} bg-white rounded-2xl p-4 focus:border-azul focus:ring-2 focus:ring-azul/20 focus:outline-none transition-all text-base text-slate-900`;
 
   return (
     <main>
@@ -70,8 +70,8 @@ export default function Contact() {
             onClick={() => handleTypeChange('consumer')}
             className={`px-7 py-3 rounded-full font-semibold text-sm transition-all duration-300 ${
               contactType === 'consumer'
-                ? 'bg-accent text-white shadow-lg shadow-accent/25'
-                : 'bg-amber-100/50 text-amber-800/60 hover:bg-amber-100'
+                ? 'bg-rojo text-white shadow-lg shadow-rojo/25'
+                : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
             }`}
           >
             Soy Cliente
@@ -80,8 +80,8 @@ export default function Contact() {
             onClick={() => handleTypeChange('distributor')}
             className={`px-7 py-3 rounded-full font-semibold text-sm transition-all duration-300 ${
               contactType === 'distributor'
-                ? 'bg-accent text-white shadow-lg shadow-accent/25'
-                : 'bg-amber-100/50 text-amber-800/60 hover:bg-amber-100'
+                ? 'bg-rojo text-white shadow-lg shadow-rojo/25'
+                : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
             }`}
           >
             Soy Distribuidor
@@ -91,24 +91,24 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div>
-            <h2 className="text-2xl font-bold mb-2 text-amber-950">
+            <h2 className="text-2xl font-bold mb-2 text-slate-900">
               {contactType === 'consumer' ? 'Tu Opinión Importa' : 'Trabajemos Juntos'}
             </h2>
-            <p className="text-amber-800/40 mb-8 text-sm leading-relaxed">
+            <p className="text-slate-500 mb-8 text-sm leading-relaxed">
               {contactType === 'consumer'
                 ? 'Cuéntanos qué piensas de Riosoto, dónde lo encontraste, o qué sabor desearías probar.'
-                : 'Comparte tu información y hablemos sobre cómo Riosoto puede llegar a más salvadoreños a través de tu negocio.'}
+                : 'Comparte tu información y hablemos sobre cómo Riosoto puede llegar a más personas a través de tu negocio.'}
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
-                <label className="block font-semibold mb-2 text-amber-950 text-sm">Tu Nombre *</label>
+                <label className="block font-semibold mb-2 text-slate-900 text-sm">Tu Nombre *</label>
                 <input type="text" name="name" required className={inputClasses('name')} placeholder="¿Cómo te llamas?" />
                 {errors.name && <p className="text-red-500 text-xs mt-1.5">{errors.name}</p>}
               </div>
 
               <div>
-                <label className="block font-semibold mb-2 text-amber-950 text-sm">Email *</label>
+                <label className="block font-semibold mb-2 text-slate-900 text-sm">Email *</label>
                 <input type="email" name="email" required className={inputClasses('email')} placeholder="tu@email.com" />
                 {errors.email && <p className="text-red-500 text-xs mt-1.5">{errors.email}</p>}
               </div>
@@ -116,12 +116,12 @@ export default function Contact() {
               {contactType === 'distributor' && (
                 <>
                   <div>
-                    <label className="block font-semibold mb-2 text-amber-950 text-sm">Empresa/Negocio *</label>
+                    <label className="block font-semibold mb-2 text-slate-900 text-sm">Empresa/Negocio *</label>
                     <input type="text" name="business" required className={inputClasses('business')} placeholder="Nombre de tu negocio" />
                     {errors.business && <p className="text-red-500 text-xs mt-1.5">{errors.business}</p>}
                   </div>
                   <div>
-                    <label className="block font-semibold mb-2 text-amber-950 text-sm">¿Qué eres? *</label>
+                    <label className="block font-semibold mb-2 text-slate-900 text-sm">¿Qué eres? *</label>
                     <select name="businessType" required className={inputClasses('businessType')}>
                       <option value="">Selecciona...</option>
                       <option value="supermarket">Supermercado</option>
@@ -132,7 +132,7 @@ export default function Contact() {
                     {errors.businessType && <p className="text-red-500 text-xs mt-1.5">{errors.businessType}</p>}
                   </div>
                   <div>
-                    <label className="block font-semibold mb-2 text-amber-950 text-sm">Ubicación (Ciudad/Región) *</label>
+                    <label className="block font-semibold mb-2 text-slate-900 text-sm">Ubicación (Ciudad/Región) *</label>
                     <input type="text" name="location" required className={inputClasses('location')} placeholder="¿Dónde estás?" />
                     {errors.location && <p className="text-red-500 text-xs mt-1.5">{errors.location}</p>}
                   </div>
@@ -140,7 +140,7 @@ export default function Contact() {
               )}
 
               <div>
-                <label className="block font-semibold mb-2 text-amber-950 text-sm">
+                <label className="block font-semibold mb-2 text-slate-900 text-sm">
                   {contactType === 'consumer' ? 'Tu Mensaje' : 'Cuéntanos Más'} *
                 </label>
                 <textarea
@@ -157,7 +157,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-accent text-white py-4 rounded-2xl font-semibold hover:bg-accent-dark hover:shadow-lg hover:shadow-accent/25 transition-all duration-300"
+                className="w-full bg-rojo text-white py-4 rounded-2xl font-semibold hover:bg-rojo-dark hover:shadow-lg hover:shadow-rojo/25 transition-all duration-300"
               >
                 {contactType === 'consumer' ? 'Enviar Mi Opinión' : 'Solicitar Información'}
               </button>
@@ -173,20 +173,20 @@ export default function Contact() {
 
           {/* Contact Info */}
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-3xl border border-amber-100/50">
-              <h2 className="text-xl font-bold mb-6 text-amber-950">Contacto Directo</h2>
+            <div className="bg-gradient-to-br from-blue-50 to-sky-50 p-8 rounded-3xl border border-slate-200/50">
+              <h2 className="text-xl font-bold mb-6 text-slate-900">Contacto Directo</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-semibold text-amber-950 mb-1 text-sm">Dirección</h3>
-                  <p className="text-amber-800/50">1a. Calle Oriente #1008<br/>San Salvador, El Salvador</p>
+                  <h3 className="font-semibold text-slate-900 mb-1 text-sm">Dirección</h3>
+                  <p className="text-slate-500">1a. Calle Oriente #1008<br/>San Salvador, El Salvador</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-amber-950 mb-1 text-sm">Email</h3>
-                  <p className="text-amber-800/50">consultas@riosoto.com</p>
+                  <h3 className="font-semibold text-slate-900 mb-1 text-sm">Email</h3>
+                  <p className="text-slate-500">consultas@riosoto.com</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-amber-950 mb-1 text-sm">Google Maps</h3>
-                  <a href="https://goo.gl/maps/nttC9PqK6WZXsVRBA" target="_blank" className="text-accent hover:text-accent-dark font-semibold inline-flex items-center gap-1 text-sm hover:gap-2 transition-all duration-200">
+                  <h3 className="font-semibold text-slate-900 mb-1 text-sm">Google Maps</h3>
+                  <a href="https://goo.gl/maps/nttC9PqK6WZXsVRBA" target="_blank" className="text-rojo hover:text-rojo-dark font-semibold inline-flex items-center gap-1 text-sm hover:gap-2 transition-all duration-200">
                     Ver en el Mapa
                     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                   </a>
@@ -194,28 +194,28 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-3xl border border-amber-100/50">
-              <h3 className="font-bold text-amber-950 mb-4 text-sm">Síguenos</h3>
-              <p className="text-amber-800/40 mb-5 text-sm">Encuentra Riosoto en redes sociales.</p>
+            <div className="bg-gradient-to-br from-blue-50 to-sky-50 p-8 rounded-3xl border border-slate-200/50">
+              <h3 className="font-bold text-slate-900 mb-4 text-sm">Síguenos</h3>
+              <p className="text-slate-500 mb-5 text-sm">Encuentra Riosoto en redes sociales.</p>
               <div className="flex gap-3">
-                <a href="#" className="w-10 h-10 rounded-full bg-accent/10 hover:bg-accent hover:text-white text-accent flex items-center justify-center transition-all duration-300 text-xs font-bold">IG</a>
-                <a href="#" className="w-10 h-10 rounded-full bg-accent/10 hover:bg-accent hover:text-white text-accent flex items-center justify-center transition-all duration-300 text-xs font-bold">FB</a>
-                <a href="#" className="w-10 h-10 rounded-full bg-accent/10 hover:bg-accent hover:text-white text-accent flex items-center justify-center transition-all duration-300 text-xs font-bold">TK</a>
+                <a href="#" className="w-10 h-10 rounded-full bg-rojo/10 hover:bg-rojo hover:text-white text-rojo flex items-center justify-center transition-all duration-300 text-xs font-bold">IG</a>
+                <a href="#" className="w-10 h-10 rounded-full bg-rojo/10 hover:bg-rojo hover:text-white text-rojo flex items-center justify-center transition-all duration-300 text-xs font-bold">FB</a>
+                <a href="#" className="w-10 h-10 rounded-full bg-rojo/10 hover:bg-rojo hover:text-white text-rojo flex items-center justify-center transition-all duration-300 text-xs font-bold">TK</a>
               </div>
             </div>
 
             {contactType === 'consumer' && (
-              <div className="bg-accent/5 p-8 rounded-3xl border border-accent/10">
-                <h3 className="font-bold text-amber-950 mb-2 text-sm">Respuesta Rápida</h3>
-                <p className="text-amber-800/40 text-sm">Tu opinión nos importa. Respondemos en 24 horas.</p>
+              <div className="bg-azul/5 p-8 rounded-3xl border border-azul/10">
+                <h3 className="font-bold text-slate-900 mb-2 text-sm">Respuesta Rápida</h3>
+                <p className="text-slate-500 text-sm">Tu opinión nos importa. Respondemos en 24 horas.</p>
               </div>
             )}
 
             {contactType === 'distributor' && (
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-3xl border border-amber-100/50">
-                <h3 className="font-bold text-amber-950 mb-2 text-sm">Oportunidad Real</h3>
-                <p className="text-amber-800/40 text-sm mb-2">Si amas Riosoto y quieres que llegue a más gente, hablemos.</p>
-                <p className="text-amber-800/30 text-xs">Distribuidores, supermercados y vendedores bienvenidos.</p>
+              <div className="bg-gradient-to-br from-blue-50 to-sky-50 p-8 rounded-3xl border border-slate-200/50">
+                <h3 className="font-bold text-slate-900 mb-2 text-sm">Oportunidad Real</h3>
+                <p className="text-slate-500 text-sm mb-2">Si amas Riosoto y quieres que llegue a más gente, hablemos.</p>
+                <p className="text-slate-400 text-xs">Distribuidores, supermercados y vendedores bienvenidos.</p>
               </div>
             )}
           </div>
@@ -223,11 +223,11 @@ export default function Contact() {
       </div>
 
       {/* Trust CTA */}
-      <section className="py-24 px-6 bg-amber-950 text-white text-center mt-20 relative overflow-hidden">
-        <div className="absolute top-0 left-1/3 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
+      <section className="py-24 px-6 bg-slate-900 text-white text-center mt-20 relative overflow-hidden">
+        <div className="absolute top-0 left-1/3 w-64 h-64 bg-rojo/10 rounded-full blur-3xl" />
         <div className="max-w-3xl mx-auto relative z-10">
           <h2 className="text-3xl font-bold mb-4">Esperamos tu Mensaje</h2>
-          <p className="text-amber-100/50 leading-relaxed">
+          <p className="text-slate-300 leading-relaxed">
             Riosoto es para todos. Cliente, distribuidor, o simplemente alguien que quiere saber más: queremos escucharte.
           </p>
         </div>

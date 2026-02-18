@@ -24,8 +24,8 @@ export function CategoryTabs<T extends string>({
           onClick={() => onChange(tab.key)}
           className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 ${
             activeKey === tab.key
-              ? 'bg-accent text-white shadow-lg shadow-accent/25'
-              : 'bg-amber-100/50 text-amber-800/60 hover:bg-amber-100 hover:text-amber-900'
+              ? 'bg-rojo text-white shadow-lg shadow-rojo/25'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700'
           }`}
         >
           {tab.label}

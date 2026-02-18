@@ -1,15 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fffbf5;
-  --foreground: #1a1207;
-  --cream: #fffbf5;
-  --warm-50: #fff8ee;
-  --warm-100: #ffefd6;
-  --warm-200: #ffdcab;
-  --accent: #e85d26;
-  --accent-light: #ff7a42;
-  --accent-dark: #c44a1a;
+  --background: #fafafa;
+  --foreground: #1a1a2e;
+  --cream: #f8f9fa;
+  --warm-50: #f0f4f8;
+  --warm-100: #e2e8f0;
+  --warm-200: #cbd5e1;
+  --rojo: #EC293A;
+  --rojo-dark: #c41e2e;
+  --rojo-light: #f04555;
+  --azul: #2C93D1;
+  --azul-dark: #1f7ab5;
+  --azul-light: #4ba8e0;
+  --amarillo: #FECF4C;
+  --amarillo-dark: #e5b83a;
+  --amarillo-light: #ffd96e;
+  --accent: var(--rojo);
+  --accent-light: var(--rojo-light);
+  --accent-dark: var(--rojo-dark);
 }
 
 @theme inline {
@@ -19,6 +28,15 @@
   --color-warm-50: var(--warm-50);
   --color-warm-100: var(--warm-100);
   --color-warm-200: var(--warm-200);
+  --color-rojo: var(--rojo);
+  --color-rojo-dark: var(--rojo-dark);
+  --color-rojo-light: var(--rojo-light);
+  --color-azul: var(--azul);
+  --color-azul-dark: var(--azul-dark);
+  --color-azul-light: var(--azul-light);
+  --color-amarillo: var(--amarillo);
+  --color-amarillo-dark: var(--amarillo-dark);
+  --color-amarillo-light: var(--amarillo-light);
   --color-accent: var(--accent);
   --color-accent-light: var(--accent-light);
   --color-accent-dark: var(--accent-dark);
@@ -44,7 +62,7 @@ html {
 }
 
 ::selection {
-  background: var(--warm-200);
+  background: var(--amarillo);
   color: var(--foreground);
 }
 
@@ -87,9 +105,9 @@ html {
 .animate-marquee { animation: marquee 30s linear infinite; }
 .animate-spin-slow { animation: spin-slow 20s linear infinite; }
 
-/* Gradient text */
+/* Gradient text — uses logo colors */
 .text-gradient {
-  background: linear-gradient(135deg, #e85d26, #f97316, #ec4899);
+  background: linear-gradient(135deg, #EC293A, #2C93D1, #FECF4C);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -97,13 +115,13 @@ html {
 
 /* Glass effects */
 .glass {
-  background: rgba(255, 251, 245, 0.8);
+  background: rgba(250, 250, 250, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
 
 .glass-dark {
-  background: rgba(26, 18, 7, 0.85);
+  background: rgba(26, 26, 46, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -141,4 +159,4 @@ html {
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--cream); }
 ::-webkit-scrollbar-thumb { background: var(--warm-200); border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+::-webkit-scrollbar-thumb:hover { background: var(--rojo); }
