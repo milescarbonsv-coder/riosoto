@@ -21,12 +21,12 @@ export default function Home() {
             <Image src="/logo.svg" alt="Riosoto" width={500} height={150} className="w-64 sm:w-72 md:w-80 h-auto mb-6" priority />
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-slate-900 leading-[0.9]">
-              Dulzura sin
-              <span className="block text-gradient">Fronteras</span>
+              El Helado que
+              <span className="block text-gradient">Todos Quieren</span>
             </h1>
 
             <p className="text-lg md:text-xl text-slate-500 mb-10 max-w-lg leading-relaxed font-light">
-              80 años creando momentos dulces en Centroamérica. 30+ sabores que cuentan la historia de una familia, una tierra, una tradición.
+              80 años creando momentos dulces en Centroamérica. 30+ sabores irresistibles que se disfrutan paleta a paleta.
             </p>
 
             <div className="flex flex-wrap gap-4">
