@@ -1,71 +1,15 @@
-export default function Recipes() {
-  const recipes = [
-    {
-      id: 1,
-      title: "Sundae de Lujo con Riosoto",
-      excerpt: "Una copa elegante que mezcla Riosoto Premium con chocolate caliente y frutas frescas.",
-      prepTime: "10 min",
-      difficulty: "Fácil",
-      emoji: "🍨",
-      ingredients: ["Copa Premium Riosoto", "Chocolate derretido", "Fresas", "Nueces", "Crema batida"]
-    },
-    {
-      id: 2,
-      title: "Milkshake de Choco Fresa",
-      excerpt: "Refrescante y delicioso. Perfecto para días calurosos en El Salvador.",
-      prepTime: "5 min",
-      difficulty: "Muy Fácil",
-      emoji: "🥤",
-      ingredients: ["Helado Choco Fresa Riosoto", "Leche fría", "Miel", "Hielo"]
-    },
-    {
-      id: 3,
-      title: "Sándwich Gourmet con Riosoto",
-      excerpt: "Nuestro Sandwich Ice Cream con pan tostado y caramelo casero.",
-      prepTime: "15 min",
-      difficulty: "Medio",
-      emoji: "🥪",
-      ingredients: ["Sandwich Ice Cream Riosoto", "Pan integral", "Caramelo", "Almendras"]
-    },
-    {
-      id: 4,
-      title: "Postre Helado de Mora",
-      excerpt: "Un postre sofisticado con nuestro sabor Mora, perfecto para cenas especiales.",
-      prepTime: "20 min",
-      difficulty: "Medio",
-      emoji: "🫐",
-      ingredients: ["Helado Mora Riosoto", "Galletas digestivas", "Mermelada de mora", "Menta"]
-    },
-    {
-      id: 5,
-      title: "Affogato Salvadoreño",
-      excerpt: "Café caliente sobre helado Choco Cream. Simplemente delicioso.",
-      prepTime: "5 min",
-      difficulty: "Muy Fácil",
-      emoji: "☕",
-      ingredients: ["Helado Choco Cream Riosoto", "Café espresso", "Azúcar", "Canela"]
-    },
-    {
-      id: 6,
-      title: "Horchata Frozen con Riosoto",
-      excerpt: "Fusiona la tradición salvadoreña con nuestro helado de Horchata. Increíble.",
-      prepTime: "10 min",
-      difficulty: "Fácil",
-      emoji: "🥛",
-      ingredients: ["Helado Horchata Riosoto", "Leche de almendra", "Canela", "Hielo picado"]
-    }
-  ];
+import { recipes, recipeTips } from '@/data/recipes';
+import { PageHeader } from '@/components/ui/PageHeader';
+import { PlaceholderImage } from '@/components/ui/PlaceholderImage';
 
+export default function Recipes() {
   return (
     <main className="bg-white">
-      {/* Header */}
-      <div className="py-20 px-4 bg-black text-white">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-orange-400 font-bold text-lg mb-4 tracking-widest">CREA MOMENTOS ESPECIALES</p>
-          <h1 className="text-6xl font-black mb-4">Recetas con Riosoto</h1>
-          <p className="text-xl text-gray-300">Inspiración para usar nuestro helado en postres increíbles.</p>
-        </div>
-      </div>
+      <PageHeader
+        tag="CREA MOMENTOS ESPECIALES"
+        title="Recetas con Riosoto"
+        description="Inspiración para usar nuestro helado en postres increíbles."
+      />
 
       <div className="max-w-6xl mx-auto px-4 py-20">
         {/* Recipes Grid */}
@@ -75,10 +19,8 @@ export default function Recipes() {
               key={recipe.id}
               className="bg-white rounded-3xl shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer overflow-hidden border-t-4 border-pink-500"
             >
-              <div className="bg-gradient-to-br from-pink-100 to-orange-100 h-40 flex items-center justify-center text-8xl">
-                {recipe.emoji}
-              </div>
-              
+              <PlaceholderImage emoji={recipe.emoji} gradient="from-pink-100 to-orange-100" />
+
               <div className="p-8">
                 <div className="flex justify-between items-start mb-4">
                   <span className="inline-block bg-pink-100 text-pink-700 px-4 py-1 rounded-full text-sm font-semibold">
@@ -129,25 +71,15 @@ export default function Recipes() {
         {/* Tips Section */}
         <div className="mt-20">
           <h2 className="text-4xl font-black text-center mb-12 text-gray-900">Consejos para Mejores Recetas</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-8 rounded-3xl">
-              <div className="text-6xl mb-4">❄️</div>
-              <h3 className="text-xl font-black mb-4 text-gray-900">Mantén Frío</h3>
-              <p className="text-gray-700">El helado Riosoto es mejor cuando está bien frío. Saca del congelador solo antes de servir.</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-100 to-purple-50 p-8 rounded-3xl">
-              <div className="text-6xl mb-4">🎨</div>
-              <h3 className="text-xl font-black mb-4 text-gray-900">Experimenta</h3>
-              <p className="text-gray-700">Mezcla sabores. Combina Choco Fresa con Mora. Encuentra tu combinación favorita.</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-yellow-100 to-yellow-50 p-8 rounded-3xl">
-              <div className="text-6xl mb-4">✨</div>
-              <h3 className="text-xl font-black mb-4 text-gray-900">Presenta con Estilo</h3>
-              <p className="text-gray-700">Una buena presentación hace que Riosoto sea aún más especial. Usa copas elegantes.</p>
-            </div>
+            {recipeTips.map((tip) => (
+              <div key={tip.title} className={`bg-gradient-to-br ${tip.gradient} p-8 rounded-3xl`}>
+                <div className="text-6xl mb-4">{tip.emoji}</div>
+                <h3 className="text-xl font-black mb-4 text-gray-900">{tip.title}</h3>
+                <p className="text-gray-700">{tip.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
