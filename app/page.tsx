@@ -17,8 +17,8 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10 py-20">
           <div>
-            {/* Hero Logo — the brand front and center */}
-            <Image src="/logo.svg" alt="Riosoto" width={500} height={150} className="w-72 sm:w-80 md:w-96 h-auto mb-6" priority />
+            {/* Hero Logo */}
+            <Image src="/logo.svg" alt="Riosoto" width={500} height={150} className="w-64 sm:w-72 md:w-80 h-auto mb-6" priority />
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-slate-900 leading-[0.9]">
               Dulzura sin
@@ -40,22 +40,31 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Floating product showcase */}
-          <div className="relative h-[400px] lg:h-[500px] hidden lg:block">
-            <div className="absolute top-[5%] left-[10%] animate-float">
-              <Image src="/products/choco-cream.png" alt="ChocoCream" width={140} height={140} className="drop-shadow-2xl" />
+          {/* Riosito mascot + floating products */}
+          <div className="relative h-[450px] lg:h-[550px] hidden lg:block">
+            {/* Riosito — the star */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Image
+                src="/riosito-mascot.webp"
+                alt="Riosito — mascota de Riosoto"
+                width={540}
+                height={960}
+                className="h-[480px] w-auto object-contain drop-shadow-2xl animate-float-slow"
+                priority
+              />
             </div>
-            <div className="absolute top-[15%] right-[5%] animate-float-delay">
-              <Image src="/products/torbellino.png" alt="Torbellino" width={130} height={130} className="drop-shadow-2xl" />
+            {/* Floating products around the mascot */}
+            <div className="absolute top-[2%] left-[0%] animate-float">
+              <Image src="/products/choco-cream.png" alt="ChocoCream" width={100} height={100} className="drop-shadow-xl" />
             </div>
-            <div className="absolute bottom-[20%] left-[5%] animate-float-slow">
-              <Image src="/products/mora.png" alt="Mora" width={120} height={120} className="drop-shadow-2xl" />
+            <div className="absolute top-[8%] right-[0%] animate-float-delay">
+              <Image src="/products/torbellino.png" alt="Torbellino" width={90} height={90} className="drop-shadow-xl" />
             </div>
-            <div className="absolute bottom-[10%] right-[15%] animate-float">
-              <Image src="/products/horchata.png" alt="Horchata" width={135} height={135} className="drop-shadow-2xl" />
+            <div className="absolute bottom-[15%] left-[0%] animate-float-delay">
+              <Image src="/products/mora.png" alt="Mora" width={85} height={85} className="drop-shadow-xl" />
             </div>
-            <div className="absolute top-[45%] left-[35%] animate-float-delay">
-              <Image src="/products/mangotwist.png" alt="Mango Twist" width={150} height={150} className="drop-shadow-2xl" />
+            <div className="absolute bottom-[10%] right-[0%] animate-float">
+              <Image src="/products/horchata.png" alt="Horchata" width={95} height={95} className="drop-shadow-xl" />
             </div>
           </div>
         </div>
