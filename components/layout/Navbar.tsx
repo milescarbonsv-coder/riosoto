@@ -6,12 +6,8 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-2 sm:gap-3">
-          <Image src="/logo.svg" alt="Riosoto" width={40} height={40} className="w-8 h-8 sm:w-10 sm:h-10" />
-          <div>
-            <h1 className="text-2xl sm:text-3xl font-black text-gray-900">Riosoto</h1>
-            <p className="text-xs text-orange-600 font-bold tracking-wide">DESDE 1946</p>
-          </div>
+        <Link href="/">
+          <Image src="/logo.svg" alt="Riosoto" width={160} height={48} className="h-10 sm:h-12 w-auto" />
         </Link>
         <div className="flex gap-8 items-center">
           {mainNavLinks.map((link) => (
