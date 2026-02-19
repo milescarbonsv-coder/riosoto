@@ -74,54 +74,48 @@ export default function Products() {
           {activeCategory === 'paletas' ? (
             (currentProducts as FlavorProduct[]).map((product) => (
               <div key={product.name} className="group cursor-pointer">
-                {/* Square Card with Product */}
-                <div className={`aspect-square bg-gradient-to-br ${product.color} rounded-2xl flex items-center justify-center relative overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:shadow-black/10 group-hover:-translate-y-1`}>
+                {/* Product Image */}
+                <div className="aspect-square flex items-center justify-center transition-all duration-300 group-hover:-translate-y-1">
                   {product.image ? (
                     <Image
                       src={product.image}
                       alt={product.name}
                       width={180}
                       height={180}
-                      className="w-[70%] h-[70%] object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
+                      className="w-[85%] h-[85%] object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
                     />
                   ) : (
                     <span className="text-5xl">{product.icon}</span>
                   )}
                 </div>
-                {/* Product Info Below Card */}
-                <div className="mt-3 text-center">
+                {/* Product Info Below */}
+                <div className="mt-2 text-center">
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">{product.name}</h3>
                   <p className="text-slate-400 text-xs mt-0.5">{product.desc}</p>
-                  {product.price && (
-                    <p className="text-rojo font-bold text-sm mt-1">{product.price}</p>
-                  )}
                 </div>
               </div>
             ))
           ) : (
             (currentProducts as OtherProduct[]).map((product) => (
               <div key={product.name} className="group cursor-pointer">
-                {/* Square Card for Other Products */}
-                <div className="aspect-square bg-white rounded-2xl flex items-center justify-center relative overflow-hidden border border-slate-100 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-black/10 group-hover:-translate-y-1">
+                {/* Product Image */}
+                <div className="aspect-square flex items-center justify-center transition-all duration-300 group-hover:-translate-y-1">
                   {product.image ? (
                     <Image
                       src={product.image}
                       alt={product.name}
                       width={160}
                       height={160}
-                      className="w-[65%] h-[65%] object-contain drop-shadow-lg transition-transform duration-500 group-hover:scale-110"
+                      className="w-[80%] h-[80%] object-contain drop-shadow-lg transition-transform duration-500 group-hover:scale-110"
                     />
                   ) : (
                     <span className="text-6xl">{product.emoji}</span>
                   )}
                 </div>
-                {/* Product Info Below Card */}
-                <div className="mt-3 text-center">
+                {/* Product Info Below */}
+                <div className="mt-2 text-center">
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">{product.name}</h3>
                   <p className="text-slate-400 text-xs mt-0.5">{t(`productDescriptions.${product.name.replace(/\./g, '')}`)}</p>
-                  {product.price && (
-                    <p className="text-rojo font-bold text-sm mt-1">{product.price}</p>
-                  )}
                 </div>
               </div>
             ))

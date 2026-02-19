@@ -35,8 +35,8 @@
     "madeWith": "Hecho con amor en Centroamérica"
   },
   "home": {
-    "heroTitle1": "El Helado que",
-    "heroTitle2": "Todos Quieren",
+    "heroTitle1": "El Sabor que",
+    "heroTitle2": "Es Como Tu",
     "heroSubtitle": "80 años creando momentos dulces en Centroamérica. 30+ sabores irresistibles para cada ocasión.",
     "heroCTA": "Explorar Sabores",
     "heroSecondary": "Nuestra Historia",
@@ -141,7 +141,8 @@
       "3": { "title": "Horchata de Riosoto: El Clásico Salvadoreño Reinventado", "excerpt": "Horchata es tradición. Riosoto es tradición. Juntas forman magia. Te contamos la historia." },
       "4": { "title": "Detrás de Escenas: Cómo Hacemos Nuestros Helados", "excerpt": "Desde el cacao hasta tu cuchara. Un tour por el proceso que convierte ingredientes simples en experiencias especiales." },
       "5": { "title": "Las 5 Formas en que Riosoto Apareció en Tu Infancia", "excerpt": "Escuela. Celebraciones. Premios. Riosoto siempre estaba. Te contamos nuestros momentos favoritos con clientes." },
-      "6": { "title": "Mora: El Sabor Especial que Casi No Creamos", "excerpt": "Una historia de innovación y riesgo. Cómo Mora se convirtió en uno de nuestros favoritos." }
+      "6": { "title": "Mora: El Sabor Especial que Casi No Creamos", "excerpt": "Una historia de innovación y riesgo. Cómo Mora se convirtió en uno de nuestros favoritos." },
+      "7": { "title": "80 Años Endulzando Centroamérica: El Aniversario de Riosoto", "excerpt": "Ocho décadas de historia, tradición y sabor. Celebramos 80 años junto a ti, la familia que nos hizo grandes." }
     }
   },
   "about": {

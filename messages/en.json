@@ -35,8 +35,8 @@
     "madeWith": "Made with love in Central America"
   },
   "home": {
-    "heroTitle1": "The Ice Cream",
-    "heroTitle2": "Everyone Wants",
+    "heroTitle1": "The Flavor that",
+    "heroTitle2": "Is Like You",
     "heroSubtitle": "80 years creating sweet moments in Central America. 30+ irresistible flavors for every occasion.",
     "heroCTA": "Explore Flavors",
     "heroSecondary": "Our Story",
@@ -141,7 +141,8 @@
       "3": { "title": "Riosoto Horchata: The Salvadoran Classic Reinvented", "excerpt": "Horchata is tradition. Riosoto is tradition. Together they create magic. We tell you the story." },
       "4": { "title": "Behind the Scenes: How We Make Our Ice Cream", "excerpt": "From cacao to your spoon. A tour through the process that turns simple ingredients into special experiences." },
       "5": { "title": "5 Ways Riosoto Was Part of Your Childhood", "excerpt": "School. Celebrations. Rewards. Riosoto was always there. We share our favorite moments with customers." },
-      "6": { "title": "Mora: The Special Flavor We Almost Didn't Create", "excerpt": "A story of innovation and risk. How Mora became one of our favorites." }
+      "6": { "title": "Mora: The Special Flavor We Almost Didn't Create", "excerpt": "A story of innovation and risk. How Mora became one of our favorites." },
+      "7": { "title": "80 Years Sweetening Central America: Riosoto's Anniversary", "excerpt": "Eight decades of history, tradition, and flavor. We celebrate 80 years alongside you, the family that made us great." }
     }
   },
   "about": {

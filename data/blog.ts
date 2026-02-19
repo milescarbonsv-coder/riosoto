@@ -63,4 +63,13 @@ export const blogPosts: BlogPost[] = [
     readTime: "5 min",
     image: "🫐",
   },
+  {
+    id: 7,
+    title: "80 Años Endulzando Centroamérica: El Aniversario de Riosoto",
+    excerpt: "Ocho décadas de historia, tradición y sabor. Celebramos 80 años junto a ti, la familia que nos hizo grandes.",
+    date: "Feb 18, 2026",
+    category: "Heritage",
+    readTime: "6 min",
+    image: "🎂",
+  },
 ];
