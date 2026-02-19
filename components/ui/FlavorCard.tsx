@@ -9,22 +9,20 @@ export function FlavorCard(props: FlavorCardProps) {
   if (props.variant === 'compact') {
     const { flavor } = props;
     return (
-      <div className="group cursor-pointer product-card">
-        <div className={`bg-gradient-to-br ${flavor.color} rounded-3xl h-36 sm:h-44 md:h-48 flex flex-col items-center justify-center relative overflow-hidden`}>
+      <div className="group cursor-pointer">
+        <div className="aspect-square flex items-center justify-center transition-all duration-300 group-hover:-translate-y-1">
           {flavor.image ? (
-            <>
-              <Image
-                src={flavor.image}
-                alt={flavor.name}
-                width={100}
-                height={100}
-                className="product-image w-20 h-20 sm:w-24 sm:h-24 object-contain drop-shadow-lg mb-2"
-              />
-              <p className="font-semibold text-white text-xs sm:text-sm text-center px-3 drop-shadow-sm">{flavor.name}</p>
-            </>
-          ) : (
-            <p className="font-semibold text-white text-xs sm:text-sm md:text-base text-center px-3">{flavor.name}</p>
-          )}
+            <Image
+              src={flavor.image}
+              alt={flavor.name}
+              width={140}
+              height={140}
+              className="w-[80%] h-[80%] object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
+            />
+          ) : null}
+        </div>
+        <div className="mt-2 text-center">
+          <p className="font-bold text-slate-900 text-sm sm:text-base">{flavor.name}</p>
         </div>
       </div>
     );

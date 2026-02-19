@@ -182,10 +182,10 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto">
           <AnimateOnScroll>
             <div className="text-center mb-16">
-              <span className="block text-rojo font-semibold text-xs tracking-[0.25em] uppercase mb-4">{t('featuresTag')}</span>
-              <div className="flex items-center gap-4 justify-center flex-wrap">
-                <h2 className="text-4xl md:text-6xl font-bold text-slate-900">{t('featuresTitle')}</h2>
-                <Image src="/logo.svg" alt="Riosoto" width={300} height={90} className="h-12 md:h-16 w-auto" />
+              <span className="block text-rojo font-semibold text-sm md:text-base tracking-[0.25em] uppercase mb-4">{t('featuresTag')}</span>
+              <div className="flex items-center gap-4 justify-center">
+                <h2 className="text-4xl md:text-6xl font-bold text-slate-900 whitespace-nowrap">{t('featuresTitle')}</h2>
+                <Image src="/logo.svg" alt="Riosoto" width={300} height={90} className="h-16 md:h-20 w-48 md:w-64 object-contain flex-shrink-0" />
               </div>
             </div>
           </AnimateOnScroll>
