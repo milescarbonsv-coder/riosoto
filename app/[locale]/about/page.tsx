@@ -89,7 +89,7 @@ export default async function About() {
           </div>
         </div>
 
-        {/* Why Riosoto */}
+        {/* Why RioSoto */}
         <div className="bg-slate-900 text-white p-12 rounded-3xl text-center mb-28 relative overflow-hidden">
           <div className="absolute top-0 left-1/3 w-48 h-48 bg-rojo/10 rounded-full blur-3xl" />
           <div className="relative z-10">

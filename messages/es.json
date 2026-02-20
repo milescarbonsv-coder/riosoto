@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "home": { "title": "Helados Riosoto | Desde 1946", "description": "80 años de tradición. 30+ sabores únicos. Presente en El Salvador, Honduras y Guatemala." },
-    "products": { "title": "Productos | Helados Riosoto", "description": "34 productos en 4 categorías. Paletas, conos, individuales y mayoristas." },
-    "blog": { "title": "Blog | Helados Riosoto", "description": "Historias de sabor, tradición y los momentos que hacen especial a Riosoto." },
-    "about": { "title": "Nosotros | Helados Riosoto", "description": "80 años de sabor. Desde 1946, Riosoto ha sido sinónimo de helado en Centroamérica." },
-    "recipes": { "title": "Recetas | Helados Riosoto", "description": "Inspiración para usar nuestro helado en postres increíbles." },
-    "contact": { "title": "Contacto | Helados Riosoto", "description": "Hablemos. Ya seas cliente o distribuidor." },
-    "empleo": { "title": "Empleo | Helados Riosoto", "description": "Únete al equipo Riosoto. Oportunidades en El Salvador y Honduras." }
+    "home": { "title": "Helados RioSoto | Desde 1946", "description": "80 años de tradición. 30+ sabores únicos. Presente en El Salvador, Honduras y Guatemala." },
+    "products": { "title": "Productos | Helados RioSoto", "description": "34 productos en 4 categorías. Paletas, conos, individuales y mayoristas." },
+    "blog": { "title": "Blog | Helados RioSoto", "description": "Historias de sabor, tradición y los momentos que hacen especial a RioSoto." },
+    "about": { "title": "Nosotros | Helados RioSoto", "description": "80 años de sabor. Desde 1946, RioSoto ha sido sinónimo de helado en Centroamérica." },
+    "recipes": { "title": "Recetas | Helados RioSoto", "description": "Inspiración para usar nuestro helado en postres increíbles." },
+    "contact": { "title": "Contacto | Helados RioSoto", "description": "Hablemos. Ya seas cliente o distribuidor." },
+    "empleo": { "title": "Empleo | Helados RioSoto", "description": "Únete al equipo RioSoto. Oportunidades en El Salvador y Honduras." }
   },
   "nav": {
     "home": "Inicio",
@@ -26,12 +26,12 @@
     "address2": "San Salvador, El Salvador",
     "email": "consultas@riosoto.com",
     "distributorsTitle": "Distribuidores",
-    "distributorsText": "Lleva el sabor de Riosoto a tu negocio.",
+    "distributorsText": "Lleva el sabor de RioSoto a tu negocio.",
     "distributorsLink": "Conocer Opciones →",
     "empleoTitle": "Empleo",
-    "empleoText": "Forma parte del equipo Riosoto. Buscamos gente apasionada.",
+    "empleoText": "Forma parte del equipo RioSoto. Buscamos gente apasionada.",
     "empleoLink": "Ver Oportunidades →",
-    "copyright": "© 2026 Helados Riosoto. Todos los derechos reservados.",
+    "copyright": "© 2026 Helados RioSoto. Todos los derechos reservados.",
     "madeWith": "Hecho con amor en Centroamérica"
   },
   "home": {
@@ -43,17 +43,17 @@
     "flavorsTag": "Nuestros Sabores",
     "flavorsTitle": "Sabores que",
     "flavorsTitleHighlight": "Enamoran",
-    "flavorsDescription": "De clásicos queridos a aventuras exóticas, hay un Riosoto para cada momento.",
+    "flavorsDescription": "De clásicos queridos a aventuras exóticas, hay un RioSoto para cada momento.",
     "flavorsViewAll": "Ver todos los sabores",
     "heritageTag": "Nuestra Historia",
     "heritageTitle": "80 Años de",
     "heritageTitleHighlight": "Tradición",
-    "heritageDescription": "Desde 1946, Riosoto ha sido el sabor de confianza en Centroamérica. Generaciones han crecido con nuestros helados. No somos una tendencia — somos una tradición.",
+    "heritageDescription": "Desde 1946, RioSoto ha sido el sabor de confianza en Centroamérica. Generaciones han crecido con nuestros helados. No somos una tendencia — somos una tradición.",
     "heritageLink": "Conoce nuestra historia",
     "featuresTag": "Ventajas",
     "featuresTitle": "Por Qué",
     "ctaTitle": "¿Listo para Distribuir?",
-    "ctaDescription": "Supermercados, distribuidores, vendedores — todos ganan con Riosoto. Márgenes atractivos. Apoyo total. Marca de confianza.",
+    "ctaDescription": "Supermercados, distribuidores, vendedores — todos ganan con RioSoto. Márgenes atractivos. Apoyo total. Marca de confianza.",
     "ctaAction1": "Solicitar Información",
     "ctaAction2": "Ver Catálogo",
     "heritageStats": {
@@ -83,12 +83,12 @@
     "chocolatesDescription": "ChocoCream, Paly Kakao, ChocoFresa, ChocoCoco, ChocoTron, ChocoTurbo. Los clásicos que todas las generaciones aman.",
     "fruitsTitle": "Frutas & Especiales",
     "fruitsDescription": "Mora, Zapote, Horchata, Nance, Mango Twist, Solaris. Lo único. Lo especial. Lo que te sorprenderá.",
-    "whereToBuyTitle": "¿Dónde Comprar Riosoto?",
-    "whereToBuyDescription": "Riosoto está en supermercados, distribuidoras y carros de venta en toda Centroamérica.",
-    "whereToBuyCTA": "Encuentra Riosoto Cerca de Ti",
+    "whereToBuyTitle": "¿Dónde Comprar RioSoto?",
+    "whereToBuyDescription": "RioSoto está en supermercados, distribuidoras y carros de venta en toda Centroamérica.",
+    "whereToBuyCTA": "Encuentra RioSoto Cerca de Ti",
     "whereToBuySecondary": "No Encuentras? Cuéntanos",
     "ctaSubtitle": "¿Distribuyes o Vendes?",
-    "ctaTitle": "Distribuye Riosoto",
+    "ctaTitle": "Distribuye RioSoto",
     "ctaDescription": "Lleva el sabor de Centroamérica a tu negocio. Márgenes atractivos. Marca de confianza.",
     "ctaAction": "Conoce Opciones de Distribución",
     "productDescriptions": {
@@ -130,48 +130,51 @@
   },
   "blog": {
     "headerTag": "HISTORIAS",
-    "headerTitle": "El Blog de Riosoto",
-    "headerDescription": "Historias de sabor, tradición y los momentos que hacen especial a Riosoto.",
+    "headerTitle": "El Blog de RioSoto",
+    "headerDescription": "Historias de sabor, tradición y los momentos que hacen especial a RioSoto.",
     "categoryAll": "Todas",
     "readButton": "Leer",
     "emptyState": "No hay artículos en esta categoría todavía.",
     "posts": {
-      "1": { "title": "80 Años de Sabor: La Historia Detrás de Choco Cream", "excerpt": "El sabor que comenzó todo. Desde 1946 hasta hoy, Choco Cream ha sido el helado que define a Riosoto." },
-      "2": { "title": "¿Por Qué Riosoto es Diferente? El Secreto está en la Tradición", "excerpt": "No copiamos tendencias. Creamos sabores que perduran. Descubre qué nos hace únicos en El Salvador." },
-      "3": { "title": "Horchata de Riosoto: El Clásico Salvadoreño Reinventado", "excerpt": "Horchata es tradición. Riosoto es tradición. Juntas forman magia. Te contamos la historia." },
-      "4": { "title": "Detrás de Escenas: Cómo Hacemos Nuestros Helados", "excerpt": "Desde el cacao hasta tu cuchara. Un tour por el proceso que convierte ingredientes simples en experiencias especiales." },
-      "5": { "title": "Las 5 Formas en que Riosoto Apareció en Tu Infancia", "excerpt": "Escuela. Celebraciones. Premios. Riosoto siempre estaba. Te contamos nuestros momentos favoritos con clientes." },
-      "6": { "title": "Mora: El Sabor Especial que Casi No Creamos", "excerpt": "Una historia de innovación y riesgo. Cómo Mora se convirtió en uno de nuestros favoritos." },
-      "7": { "title": "80 Años Endulzando Centroamérica: El Aniversario de Riosoto", "excerpt": "Ocho décadas de historia, tradición y sabor. Celebramos 80 años junto a ti, la familia que nos hizo grandes." }
+      "1": {
+        "title": "Rio Soto Estrena Nueva Página Web: 80 Años de Sabor, Ahora a un Clic de Distancia",
+        "excerpt": "Hoy damos un paso importante hacia el futuro sin olvidar nuestras raíces: ¡lanzamos nuestra nueva página web!",
+        "content": "Por más de 80 años, Rio Soto ha sido parte de la vida de las familias salvadoreñas. Generación tras generación, nuestros sobetes y paletas han estado presentes en los momentos más frescos y felices de tu día a día. Hoy damos un paso importante hacia el futuro sin olvidar nuestras raíces, y queremos compartirlo con vos: ¡lanzamos nuestra nueva página web!\n\n## Una nueva ventana a nuestro mundo\n\nSabemos que los tiempos cambian, y queremos estar más cerca de vos que nunca. Por eso creamos un espacio digital moderno donde podés:\n\n- **Explorar todos nuestros productos y sabores:** Desde los clásicos que te acompañan desde cipote hasta las novedades que estamos preparando para vos.\n- **Hacer pedidos en línea:** Ahora podés pedir tus sobetes y paletas favoritas sin salir de casa. Más fácil, más rápido, más fresco.\n- **Conocer nuestra historia:** 80 años dan para mucho. Te invitamos a descubrir cómo una familia salvadoreña convirtió su pasión en el sabor que nos une a todos.\n- **Oportunidades de empleo:** ¿Querés ser parte de la familia Rio Soto? En nuestra sección de empleos podés conocer las vacantes disponibles y aplicar directamente.\n\n## ¿Y qué más viene?\n\nEsto es solo el comienzo. Muy pronto vamos a estrenar una sección de recetas donde vas a descubrir formas creativas y deliciosas de disfrutar nuestros productos. Porque un sobete de Rio Soto puede ser mucho más que un sobete.\n\nY por supuesto, este blog será un espacio para mantenerte al día con todo lo que pasa en Rio Soto: nuevos sabores, eventos, promociones y más.\n\n## Gracias por ser parte de nuestra historia\n\nCada sobete, cada paleta, cada sonrisa fresca lleva 80 años de dedicación familiar. Esta página web es nuestra forma de decirte gracias y de seguir creciendo junto a vos.\n\nTe invitamos a explorar la nueva página y a compartirla con tu gente. Porque al final, eso es lo que hacemos mejor: crear el sabor que nos une.\n\n---\n\n*Rio Soto — El sabor que nos une.*"
+      },
+      "2": {
+        "title": "RioSoto Invierte en el Futuro: Nueva Maquinaria de Clase Mundial para Seguir Refrescando a Centroamérica",
+        "excerpt": "Hemos realizado una inversión significativa en maquinaria de última generación de Tetra Pak para seguir refrescando a Centroamérica.",
+        "content": "En RioSoto no nos quedamos en el pasado. Con 80 años de historia, sabemos que para seguir siendo el sabor que nos une, hay que mirar hacia adelante. Por eso hoy compartimos con orgullo una gran noticia: hemos realizado una inversión significativa en maquinaria de última generación de Tetra Pak, líder mundial en tecnología de procesamiento y envasado de origen sueco.\n\n## ¿Qué significa esto para vos?\n\nMuy sencillo: más calidad, más frescura y más producto para que nunca te falte tu sobete o paleta favorita. Con esta nueva tecnología de clase mundial podemos:\n\n- **Garantizar la mejor calidad en cada producto** gracias a controles más precisos y modernos en todo el proceso de producción.\n- **Aumentar nuestra capacidad de producción** para llegar a más familias centroamericanas, en más lugares y con mayor rapidez.\n- **Mantener los estándares internacionales más altos,** porque te merecés un producto hecho con lo mejor.\n\n## Una apuesta por Centroamérica\n\nEsta inversión no es solo en maquinaria, es una apuesta por la región. Significa más empleo, más crecimiento y el compromiso de una empresa familiar que desde El Salvador sigue reinvirtiendo en su gente y expandiéndose a Honduras, Guatemala y toda Centroamérica. Mientras muchos buscan afuera, nosotros seguimos apostando por nuestra región.\n\nLlevamos 80 años preparando cada sobete y cada paleta con dedicación. Ahora, con la tecnología de Tetra Pak respaldándonos, te aseguramos que los próximos 80 años van a ser aún más frescos.\n\nGracias por seguir eligiéndonos. Esto apenas comienza.\n\n---\n\n*RioSoto — El sabor que nos une.*"
+      }
     }
   },
   "about": {
     "headerTag": "NUESTRA HISTORIA",
     "headerTitle": "80 Años de Sabor",
-    "headerDescription": "Desde 1946, Riosoto ha sido sinónimo de helado en Centroamérica.",
+    "headerDescription": "Desde 1946, RioSoto ha sido sinónimo de helado en Centroamérica.",
     "storyTitle": "Una Familia. Un Sueño.",
     "storyTitleHighlight": "80 Años de Perfección.",
     "storyP1": "En 1946, una familia salvadoreña decide hacer algo simple pero importante: crear el mejor helado posible. No el más barato. No el más vendido. El mejor.",
     "storyP2": "Eso fue hace 80 años. Y aquí estamos, todavía haciendo lo mismo.",
-    "storyP3": "Hoy, Riosoto es más que una marca. Es una memoria. Es el recuerdo de tu infancia. Es el helado que tu abuela compraba. Es lo que pides cuando quieres algo especial. Es Centroamérica en una cuchara.",
+    "storyP3": "Hoy, RioSoto es más que una marca. Es una memoria. Es el recuerdo de tu infancia. Es el helado que tu abuela compraba. Es lo que pides cuando quieres algo especial. Es Centroamérica en una cuchara.",
     "timelineTag": "Hitos",
     "timelineTitle": "El Viaje",
     "timeline": {
-      "1946": { "title": "Nace una Obsesión", "description": "Una familia salvadoreña apasionada funda Riosoto. Recetas secretas. Ingredientes reales. Obsesión por la calidad. Comienza una tradición que duraría 80 años." },
-      "1960s": { "title": "Crece Dentro del Corazón", "description": "Riosoto se convierte en parte de la infancia salvadoreña. Escuelas. Celebraciones. Momentos especiales. La marca que todos conocen." },
-      "1980s": { "title": "Se Expande en la Región", "description": "Riosoto cruza fronteras. Honduras. Guatemala. Un sabor que conecta a toda Centroamérica." },
+      "1946": { "title": "Nace una Obsesión", "description": "Una familia salvadoreña apasionada funda RioSoto. Recetas secretas. Ingredientes reales. Obsesión por la calidad. Comienza una tradición que duraría 80 años." },
+      "1960s": { "title": "Crece Dentro del Corazón", "description": "RioSoto se convierte en parte de la infancia salvadoreña. Escuelas. Celebraciones. Momentos especiales. La marca que todos conocen." },
+      "1980s": { "title": "Se Expande en la Región", "description": "RioSoto cruza fronteras. Honduras. Guatemala. Un sabor que conecta a toda Centroamérica." },
       "2000s": { "title": "Innovación con Raíces", "description": "Ampliamos a 30+ sabores. Nuevas presentaciones. Pero mantuvimos lo que nos hace especiales: la calidad, la tradición, el amor al sabor." },
-      "2026": { "title": "El Futuro es Ahora", "description": "Riosoto se moderniza. Conectamos directamente contigo. Porque después de 80 años, solo queremos una cosa: que sigas disfrutando de nuestro helado." }
+      "2026": { "title": "El Futuro es Ahora", "description": "RioSoto se moderniza. Conectamos directamente contigo. Porque después de 80 años, solo queremos una cosa: que sigas disfrutando de nuestro helado." }
     },
     "valuesTag": "Principios",
     "valuesTitle": "En Qué Creemos",
     "values": {
       "quality": { "title": "Calidad Sin Compromiso", "description": "Cada sabor es una promesa. Ingredientes reales. Recetas perfeccionadas por 80 años. Nunca cortamos esquinas. Nunca." },
       "love": { "title": "Amor por Centroamérica", "description": "Nacimos en El Salvador, pero Centroamérica es nuestro hogar. Entendemos tu cultura, tu mercado, tu familia. No somos una empresa corporativa—somos tuyos." },
-      "innovation": { "title": "Innovación con Tradición", "description": "Nos reinventamos, pero nunca perdemos de vista lo que nos hizo especiales. 30+ sabores. Presentaciones nuevas. Pero el DNA de Riosoto sigue igual." },
-      "moment": { "title": "Tu Momento Especial", "description": "Riosoto es lujo accesible. Tu capricho. Tu premio. Mereces algo bueno. Así de simple." }
+      "innovation": { "title": "Innovación con Tradición", "description": "Nos reinventamos, pero nunca perdemos de vista lo que nos hizo especiales. 30+ sabores. Presentaciones nuevas. Pero el DNA de RioSoto sigue igual." },
+      "moment": { "title": "Tu Momento Especial", "description": "RioSoto es lujo accesible. Tu capricho. Tu premio. Mereces algo bueno. Así de simple." }
     },
-    "whyTitle": "¿Por Qué Riosoto?",
+    "whyTitle": "¿Por Qué RioSoto?",
     "whyDescription": "Porque después de 80 años, sabemos que la calidad y la confianza no tienen precio. No somos la tendencia del momento. Somos la tradición de tu vida.",
     "stats": {
       "years": "Años de Historia",
@@ -179,45 +182,45 @@
       "countries": "Países",
       "moments": "Momentos Especiales"
     },
-    "ctaTitle": "¿Listo para Probar Riosoto?",
-    "ctaDescription": "Encuentra Riosoto en tu supermercado o distribuidora más cercana. Si no está, pídelo. Queremos estar donde estés tú.",
-    "ctaAction": "Encuentra Riosoto Cerca de Ti"
+    "ctaTitle": "¿Listo para Probar RioSoto?",
+    "ctaDescription": "Encuentra RioSoto en tu supermercado o distribuidora más cercana. Si no está, pídelo. Queremos estar donde estés tú.",
+    "ctaAction": "Encuentra RioSoto Cerca de Ti"
   },
   "recipes": {
     "headerTag": "CREA MOMENTOS ESPECIALES",
-    "headerTitle": "Recetas con Riosoto",
+    "headerTitle": "Recetas con RioSoto",
     "headerDescription": "Inspiración para usar nuestro helado en postres increíbles.",
     "ingredientsLabel": "Ingredientes",
     "moreIngredients": "+ {count} más",
     "viewRecipe": "Ver Receta Completa",
-    "ctaTitle": "¿Tu Receta con Riosoto?",
+    "ctaTitle": "¿Tu Receta con RioSoto?",
     "ctaDescription": "Crea tu propia receta con nuestros helados y comparte con nosotros. Podría aparecer aquí.",
     "ctaAction": "Envía tu Receta",
     "tipsTag": "Consejos",
     "tipsTitle": "Consejos para Mejores Recetas",
     "items": {
-      "1": { "title": "Sundae de Lujo con Riosoto", "excerpt": "Una copa elegante que mezcla Riosoto Premium con chocolate caliente y frutas frescas." },
+      "1": { "title": "Sundae de Lujo con RioSoto", "excerpt": "Una copa elegante que mezcla RioSoto Premium con chocolate caliente y frutas frescas." },
       "2": { "title": "Milkshake de Choco Fresa", "excerpt": "Refrescante y delicioso. Perfecto para días calurosos en El Salvador." },
-      "3": { "title": "Sándwich Gourmet con Riosoto", "excerpt": "Nuestro Sandwich Ice Cream con pan tostado y caramelo casero." },
+      "3": { "title": "Sándwich Gourmet con RioSoto", "excerpt": "Nuestro Sandwich Ice Cream con pan tostado y caramelo casero." },
       "4": { "title": "Postre Helado de Mora", "excerpt": "Un postre sofisticado con nuestro sabor Mora, perfecto para cenas especiales." },
       "5": { "title": "Affogato Salvadoreño", "excerpt": "Café caliente sobre helado Choco Cream. Simplemente delicioso." },
-      "6": { "title": "Horchata Frozen con Riosoto", "excerpt": "Fusiona la tradición salvadoreña con nuestro helado de Horchata. Increíble." }
+      "6": { "title": "Horchata Frozen con RioSoto", "excerpt": "Fusiona la tradición salvadoreña con nuestro helado de Horchata. Increíble." }
     },
     "tips": {
-      "cold": { "title": "Mantén Frío", "description": "El helado Riosoto es mejor cuando está bien frío. Saca del congelador solo antes de servir." },
+      "cold": { "title": "Mantén Frío", "description": "El helado RioSoto es mejor cuando está bien frío. Saca del congelador solo antes de servir." },
       "experiment": { "title": "Experimenta", "description": "Mezcla sabores. Combina Choco Fresa con Mora. Encuentra tu combinación favorita." },
-      "style": { "title": "Presenta con Estilo", "description": "Una buena presentación hace que Riosoto sea aún más especial. Usa copas elegantes." }
+      "style": { "title": "Presenta con Estilo", "description": "Una buena presentación hace que RioSoto sea aún más especial. Usa copas elegantes." }
     }
   },
   "contact": {
     "headerTitle": "Hablemos",
-    "headerDescription": "Ya sea que ames Riosoto o quieras distribuirlo, nos encantaría escucharte.",
+    "headerDescription": "Ya sea que ames RioSoto o quieras distribuirlo, nos encantaría escucharte.",
     "typeConsumer": "Soy Cliente",
     "typeDistributor": "Soy Distribuidor",
     "consumerTitle": "Tu Opinión Importa",
     "distributorTitle": "Trabajemos Juntos",
-    "consumerSubtitle": "Cuéntanos qué piensas de Riosoto, dónde lo encontraste, o qué sabor desearías probar.",
-    "distributorSubtitle": "Comparte tu información y hablemos sobre cómo Riosoto puede llegar a más personas a través de tu negocio.",
+    "consumerSubtitle": "Cuéntanos qué piensas de RioSoto, dónde lo encontraste, o qué sabor desearías probar.",
+    "distributorSubtitle": "Comparte tu información y hablemos sobre cómo RioSoto puede llegar a más personas a través de tu negocio.",
     "labelName": "Tu Nombre *",
     "placeholderName": "¿Cómo te llamas?",
     "labelEmail": "Email *",
@@ -234,8 +237,8 @@
     "placeholderLocation": "¿Dónde estás?",
     "labelMessageConsumer": "Tu Mensaje *",
     "labelMessageDistributor": "Cuéntanos Más *",
-    "placeholderMessageConsumer": "¿Qué piensas de Riosoto? ¿Qué sabor amas? ¿Dónde lo compraste?",
-    "placeholderMessageDistributor": "Cuéntanos sobre tu negocio y por qué te interesa distribuir Riosoto.",
+    "placeholderMessageConsumer": "¿Qué piensas de RioSoto? ¿Qué sabor amas? ¿Dónde lo compraste?",
+    "placeholderMessageDistributor": "Cuéntanos sobre tu negocio y por qué te interesa distribuir RioSoto.",
     "submitConsumer": "Enviar Mi Opinión",
     "submitDistributor": "Solicitar Información",
     "successMessage": "¡Gracias! Nos contactaremos muy pronto.",
@@ -254,18 +257,18 @@
     "mapsLabel": "Google Maps",
     "mapsLink": "Ver en el Mapa",
     "followTitle": "Síguenos",
-    "followDescription": "Encuentra Riosoto en redes sociales.",
+    "followDescription": "Encuentra RioSoto en redes sociales.",
     "quickResponseTitle": "Respuesta Rápida",
     "quickResponseDescription": "Tu opinión nos importa. Respondemos en 24 horas.",
     "opportunityTitle": "Oportunidad Real",
-    "opportunityDescription": "Si amas Riosoto y quieres que llegue a más gente, hablemos.",
+    "opportunityDescription": "Si amas RioSoto y quieres que llegue a más gente, hablemos.",
     "opportunityNote": "Distribuidores, supermercados y vendedores bienvenidos.",
     "trustTitle": "Esperamos tu Mensaje",
-    "trustDescription": "Riosoto es para todos. Cliente, distribuidor, o simplemente alguien que quiere saber más: queremos escucharte."
+    "trustDescription": "RioSoto es para todos. Cliente, distribuidor, o simplemente alguien que quiere saber más: queremos escucharte."
   },
   "empleo": {
     "headerTag": "Empleo",
-    "headerTitle": "Únete al Equipo Riosoto",
+    "headerTitle": "Únete al Equipo RioSoto",
     "headerDescription": "Construye tu carrera en la marca de helados más querida de Centroamérica. 80 años de tradición, y tú puedes ser parte de lo que viene.",
     "openPositionsTag": "Posiciones Abiertas",
     "openPositionsTitle": "Oportunidades Disponibles",
@@ -281,7 +284,7 @@
     "labelPosition": "Posición de Interés *",
     "placeholderPosition": "Selecciona una posición...",
     "labelAboutYou": "Cuéntanos Sobre Ti *",
-    "placeholderAboutYou": "Tu experiencia, por qué te interesa Riosoto, y cualquier cosa que quieras compartir...",
+    "placeholderAboutYou": "Tu experiencia, por qué te interesa RioSoto, y cualquier cosa que quieras compartir...",
     "submitButton": "Enviar Solicitud",
     "successMessage": "¡Gracias! Recibimos tu solicitud. Te contactaremos pronto.",
     "errorNameRequired": "El nombre es requerido",
@@ -290,7 +293,7 @@
     "errorPhoneRequired": "El teléfono es requerido",
     "errorPositionRequired": "Selecciona una posición",
     "errorMessageRequired": "Cuéntanos sobre ti",
-    "whyRiosotoTitle": "¿Por Qué Riosoto?",
+    "whyRioSotoTitle": "¿Por Qué RioSoto?",
     "benefits": {
       "stable": { "title": "Empresa Estable", "description": "80 años en el mercado. Crecimiento constante en toda Centroamérica." },
       "growth": { "title": "Crecimiento Profesional", "description": "Oportunidades de desarrollo y capacitación continua." },
@@ -302,27 +305,27 @@
       "1": "Envía tu solicitud aquí",
       "2": "Revisamos tu perfil (1-3 días)",
       "3": "Entrevista con el equipo",
-      "4": "¡Bienvenido a Riosoto!"
+      "4": "¡Bienvenido a RioSoto!"
     },
     "questionsTitle": "¿Preguntas?",
     "questionsDescription": "Escríbenos a {email} y te responderemos a la brevedad.",
     "questionsEmail": "empleo@riosoto.com",
     "ctaTitle": "Tu Futuro Empieza Aquí",
-    "ctaDescription": "Riosoto es más que helados. Es una familia, una tradición, y una oportunidad de crecer. ¿Listo para ser parte?",
+    "ctaDescription": "RioSoto es más que helados. Es una familia, una tradición, y una oportunidad de crecer. ¿Listo para ser parte?",
     "ctaAction1": "Ver Posiciones Arriba",
     "ctaAction2": "Contactar RRHH",
     "jobs": {
       "prod-operador-sv": { "title": "Operador de Producción", "department": "Planta", "type": "Tiempo Completo", "description": "Responsable de operar las líneas de producción de helados, asegurando calidad y eficiencia en cada lote.", "requirements": ["Experiencia en manufactura de alimentos (deseable)", "Disponibilidad para turnos rotativos", "Bachillerato completo", "Trabajo en equipo y atención al detalle"] },
       "maint-tecnico-sv": { "title": "Técnico de Mantenimiento", "department": "Planta", "type": "Tiempo Completo", "description": "Mantenimiento preventivo y correctivo de equipos de refrigeración y líneas de producción.", "requirements": ["Técnico en mecánica industrial o electromecánica", "2+ años de experiencia en mantenimiento industrial", "Conocimiento en sistemas de refrigeración", "Disponibilidad para emergencias"] },
       "ventas-ejecutivo-sv": { "title": "Ejecutivo de Ventas", "department": "Comercial", "type": "Tiempo Completo", "description": "Gestión de cartera de clientes y desarrollo de nuevos puntos de venta en la zona metropolitana.", "requirements": ["Licenciatura en Mercadeo, Administración o afín", "1+ año en ventas de consumo masivo", "Licencia de conducir vigente", "Habilidades de negociación y comunicación"] },
-      "mkt-disenador-sv": { "title": "Diseñador Gráfico", "department": "Marketing", "type": "Tiempo Completo", "description": "Creación de materiales visuales para campañas, empaque y redes sociales de la marca Riosoto.", "requirements": ["Licenciatura en Diseño Gráfico o afín", "Dominio de Adobe Creative Suite", "Portfolio con trabajo en branding o consumo masivo", "Creatividad y pasión por la marca"] },
+      "mkt-disenador-sv": { "title": "Diseñador Gráfico", "department": "Marketing", "type": "Tiempo Completo", "description": "Creación de materiales visuales para campañas, empaque y redes sociales de la marca RioSoto.", "requirements": ["Licenciatura en Diseño Gráfico o afín", "Dominio de Adobe Creative Suite", "Portfolio con trabajo en branding o consumo masivo", "Creatividad y pasión por la marca"] },
       "log-supervisor-hn": { "title": "Supervisor de Distribución", "department": "Logística", "type": "Tiempo Completo", "description": "Coordinación de rutas de distribución y supervisión de equipos de reparto en la zona central de Honduras.", "requirements": ["Licenciatura en Logística, Administración o afín", "3+ años en distribución de productos refrigerados", "Experiencia liderando equipos", "Conocimiento de rutas en zona central"] },
-      "ventas-rep-hn": { "title": "Representante de Ventas", "department": "Comercial", "type": "Tiempo Completo", "description": "Expansión de la presencia de Riosoto en el norte de Honduras. Captación y atención de clientes.", "requirements": ["Experiencia en ventas de campo", "Conocimiento del mercado de San Pedro Sula", "Licencia de conducir vigente", "Orientación a resultados"] }
+      "ventas-rep-hn": { "title": "Representante de Ventas", "department": "Comercial", "type": "Tiempo Completo", "description": "Expansión de la presencia de RioSoto en el norte de Honduras. Captación y atención de clientes.", "requirements": ["Experiencia en ventas de campo", "Conocimiento del mercado de San Pedro Sula", "Licencia de conducir vigente", "Orientación a resultados"] }
     }
   },
   "newsletter": {
     "title": "No Te Pierdas las Nuevas Historias",
-    "description": "Recibe nuevos articulos sobre sabores, recetas y la historia de Riosoto.",
+    "description": "Recibe nuevos articulos sobre sabores, recetas y la historia de RioSoto.",
     "placeholder": "tu@email.com",
     "submit": "Suscribir",
     "success": "¡Gracias por suscribirte!"

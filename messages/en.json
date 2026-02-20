@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "home": { "title": "Riosoto Ice Cream | Since 1946", "description": "80 years of tradition. 30+ unique flavors. Present in El Salvador, Honduras, and Guatemala." },
-    "products": { "title": "Products | Riosoto Ice Cream", "description": "34 products in 4 categories. Popsicles, cones, individual, and wholesale." },
-    "blog": { "title": "Blog | Riosoto Ice Cream", "description": "Stories of flavor, tradition, and the moments that make Riosoto special." },
-    "about": { "title": "About Us | Riosoto Ice Cream", "description": "80 years of flavor. Since 1946, Riosoto has been synonymous with ice cream in Central America." },
-    "recipes": { "title": "Recipes | Riosoto Ice Cream", "description": "Inspiration for using our ice cream in incredible desserts." },
-    "contact": { "title": "Contact | Riosoto Ice Cream", "description": "Let's talk. Whether you're a customer or distributor." },
-    "empleo": { "title": "Careers | Riosoto Ice Cream", "description": "Join the Riosoto team. Opportunities in El Salvador and Honduras." }
+    "home": { "title": "RioSoto Ice Cream | Since 1946", "description": "80 years of tradition. 30+ unique flavors. Present in El Salvador, Honduras, and Guatemala." },
+    "products": { "title": "Products | RioSoto Ice Cream", "description": "34 products in 4 categories. Popsicles, cones, individual, and wholesale." },
+    "blog": { "title": "Blog | RioSoto Ice Cream", "description": "Stories of flavor, tradition, and the moments that make RioSoto special." },
+    "about": { "title": "About Us | RioSoto Ice Cream", "description": "80 years of flavor. Since 1946, RioSoto has been synonymous with ice cream in Central America." },
+    "recipes": { "title": "Recipes | RioSoto Ice Cream", "description": "Inspiration for using our ice cream in incredible desserts." },
+    "contact": { "title": "Contact | RioSoto Ice Cream", "description": "Let's talk. Whether you're a customer or distributor." },
+    "empleo": { "title": "Careers | RioSoto Ice Cream", "description": "Join the RioSoto team. Opportunities in El Salvador and Honduras." }
   },
   "nav": {
     "home": "Home",
@@ -26,12 +26,12 @@
     "address2": "San Salvador, El Salvador",
     "email": "consultas@riosoto.com",
     "distributorsTitle": "Distributors",
-    "distributorsText": "Bring the taste of Riosoto to your business.",
+    "distributorsText": "Bring the taste of RioSoto to your business.",
     "distributorsLink": "Learn More →",
     "empleoTitle": "Careers",
-    "empleoText": "Be part of the Riosoto team. We're looking for passionate people.",
+    "empleoText": "Be part of the RioSoto team. We're looking for passionate people.",
     "empleoLink": "See Opportunities →",
-    "copyright": "© 2026 Helados Riosoto. All rights reserved.",
+    "copyright": "© 2026 Helados RioSoto. All rights reserved.",
     "madeWith": "Made with love in Central America"
   },
   "home": {
@@ -43,17 +43,17 @@
     "flavorsTag": "Our Flavors",
     "flavorsTitle": "Flavors that",
     "flavorsTitleHighlight": "Captivate",
-    "flavorsDescription": "From beloved classics to exotic adventures, there's a Riosoto for every moment.",
+    "flavorsDescription": "From beloved classics to exotic adventures, there's a RioSoto for every moment.",
     "flavorsViewAll": "See all flavors",
     "heritageTag": "Our Story",
     "heritageTitle": "80 Years of",
     "heritageTitleHighlight": "Tradition",
-    "heritageDescription": "Since 1946, Riosoto has been the trusted flavor in Central America. Generations have grown up with our ice cream. We're not a trend — we're a tradition.",
+    "heritageDescription": "Since 1946, RioSoto has been the trusted flavor in Central America. Generations have grown up with our ice cream. We're not a trend — we're a tradition.",
     "heritageLink": "Discover our story",
     "featuresTag": "Advantages",
     "featuresTitle": "Why",
     "ctaTitle": "Ready to Distribute?",
-    "ctaDescription": "Supermarkets, distributors, vendors — everyone wins with Riosoto. Attractive margins. Full support. Trusted brand.",
+    "ctaDescription": "Supermarkets, distributors, vendors — everyone wins with RioSoto. Attractive margins. Full support. Trusted brand.",
     "ctaAction1": "Request Information",
     "ctaAction2": "View Catalog",
     "heritageStats": {
@@ -83,12 +83,12 @@
     "chocolatesDescription": "ChocoCream, Paly Kakao, ChocoFresa, ChocoCoco, ChocoTron, ChocoTurbo. The classics that every generation loves.",
     "fruitsTitle": "Fruits & Specials",
     "fruitsDescription": "Mora, Zapote, Horchata, Nance, Mango Twist, Solaris. The unique. The special. What will surprise you.",
-    "whereToBuyTitle": "Where to Buy Riosoto?",
-    "whereToBuyDescription": "Riosoto is in supermarkets, distributors, and street vendors throughout Central America.",
-    "whereToBuyCTA": "Find Riosoto Near You",
+    "whereToBuyTitle": "Where to Buy RioSoto?",
+    "whereToBuyDescription": "RioSoto is in supermarkets, distributors, and street vendors throughout Central America.",
+    "whereToBuyCTA": "Find RioSoto Near You",
     "whereToBuySecondary": "Can't Find It? Tell Us",
     "ctaSubtitle": "Do You Distribute or Sell?",
-    "ctaTitle": "Distribute Riosoto",
+    "ctaTitle": "Distribute RioSoto",
     "ctaDescription": "Bring the taste of Central America to your business. Attractive margins. Trusted brand.",
     "ctaAction": "Learn About Distribution Options",
     "productDescriptions": {
@@ -130,48 +130,51 @@
   },
   "blog": {
     "headerTag": "STORIES",
-    "headerTitle": "The Riosoto Blog",
-    "headerDescription": "Stories of flavor, tradition, and the moments that make Riosoto special.",
+    "headerTitle": "The RioSoto Blog",
+    "headerDescription": "Stories of flavor, tradition, and the moments that make RioSoto special.",
     "categoryAll": "All",
     "readButton": "Read",
     "emptyState": "No articles in this category yet.",
     "posts": {
-      "1": { "title": "80 Years of Flavor: The Story Behind Choco Cream", "excerpt": "The flavor that started it all. From 1946 to today, Choco Cream has been the ice cream that defines Riosoto." },
-      "2": { "title": "Why Is Riosoto Different? The Secret Is in the Tradition", "excerpt": "We don't copy trends. We create flavors that endure. Discover what makes us unique in El Salvador." },
-      "3": { "title": "Riosoto Horchata: The Salvadoran Classic Reinvented", "excerpt": "Horchata is tradition. Riosoto is tradition. Together they create magic. We tell you the story." },
-      "4": { "title": "Behind the Scenes: How We Make Our Ice Cream", "excerpt": "From cacao to your spoon. A tour through the process that turns simple ingredients into special experiences." },
-      "5": { "title": "5 Ways Riosoto Was Part of Your Childhood", "excerpt": "School. Celebrations. Rewards. Riosoto was always there. We share our favorite moments with customers." },
-      "6": { "title": "Mora: The Special Flavor We Almost Didn't Create", "excerpt": "A story of innovation and risk. How Mora became one of our favorites." },
-      "7": { "title": "80 Years Sweetening Central America: Riosoto's Anniversary", "excerpt": "Eight decades of history, tradition, and flavor. We celebrate 80 years alongside you, the family that made us great." }
+      "1": {
+        "title": "Rio Soto Launches New Website: 80 Years of Flavor, Now Just a Click Away",
+        "excerpt": "Today we take an important step toward the future without forgetting our roots: we're launching our new website!",
+        "content": "For over 80 years, Rio Soto has been part of the lives of Salvadoran families. Generation after generation, our ice cream and popsicles have been present in the freshest and happiest moments of your daily life. Today we take an important step toward the future without forgetting our roots, and we want to share it with you: we're launching our new website!\n\n## A new window to our world\n\nWe know that times change, and we want to be closer to you than ever. That's why we created a modern digital space where you can:\n\n- **Explore all our products and flavors:** From the classics that have been with you since childhood to the new creations we're preparing for you.\n- **Order online:** Now you can order your favorite ice cream and popsicles without leaving home. Easier, faster, fresher.\n- **Discover our story:** 80 years is a lot of ground to cover. We invite you to discover how a Salvadoran family turned their passion into the flavor that unites us all.\n- **Career opportunities:** Want to be part of the Rio Soto family? In our careers section you can see available positions and apply directly.\n\n## What else is coming?\n\nThis is just the beginning. Very soon we'll be launching a recipes section where you'll discover creative and delicious ways to enjoy our products. Because a Rio Soto ice cream can be so much more than just ice cream.\n\nAnd of course, this blog will be a space to keep you up to date with everything happening at Rio Soto: new flavors, events, promotions, and more.\n\n## Thank you for being part of our story\n\nEvery ice cream, every popsicle, every fresh smile carries 80 years of family dedication. This website is our way of saying thank you and continuing to grow alongside you.\n\nWe invite you to explore the new site and share it with your people. Because in the end, that's what we do best: create the flavor that unites us.\n\n---\n\n*Rio Soto — The flavor that unites us.*"
+      },
+      "2": {
+        "title": "RioSoto Invests in the Future: World-Class Machinery to Keep Refreshing Central America",
+        "excerpt": "We've made a significant investment in state-of-the-art Tetra Pak machinery to keep refreshing Central America.",
+        "content": "At RioSoto, we don't stay in the past. With 80 years of history, we know that to continue being the flavor that unites us, we need to look ahead. That's why today we proudly share great news: we've made a significant investment in state-of-the-art machinery from Tetra Pak, the Swedish-origin world leader in processing and packaging technology.\n\n## What does this mean for you?\n\nVery simple: more quality, more freshness, and more product so you never run out of your favorite ice cream or popsicle. With this world-class technology we can:\n\n- **Guarantee the best quality in every product** thanks to more precise and modern controls throughout the entire production process.\n- **Increase our production capacity** to reach more Central American families, in more places and with greater speed.\n- **Maintain the highest international standards,** because you deserve a product made with the best.\n\n## A bet on Central America\n\nThis investment isn't just in machinery — it's a bet on the region. It means more jobs, more growth, and the commitment of a family company that from El Salvador continues reinvesting in its people and expanding to Honduras, Guatemala, and all of Central America. While many look elsewhere, we keep betting on our region.\n\nWe've spent 80 years preparing every ice cream and every popsicle with dedication. Now, with Tetra Pak technology backing us, we assure you that the next 80 years are going to be even fresher.\n\nThank you for continuing to choose us. This is just the beginning.\n\n---\n\n*RioSoto — The flavor that unites us.*"
+      }
     }
   },
   "about": {
     "headerTag": "OUR STORY",
     "headerTitle": "80 Years of Flavor",
-    "headerDescription": "Since 1946, Riosoto has been synonymous with ice cream in Central America.",
+    "headerDescription": "Since 1946, RioSoto has been synonymous with ice cream in Central America.",
     "storyTitle": "One Family. One Dream.",
     "storyTitleHighlight": "80 Years of Perfection.",
     "storyP1": "In 1946, a Salvadoran family decided to do something simple but important: create the best ice cream possible. Not the cheapest. Not the best-selling. The best.",
     "storyP2": "That was 80 years ago. And here we are, still doing the same thing.",
-    "storyP3": "Today, Riosoto is more than a brand. It's a memory. It's the taste of your childhood. It's the ice cream your grandmother used to buy. It's what you ask for when you want something special. It's Central America in a spoon.",
+    "storyP3": "Today, RioSoto is more than a brand. It's a memory. It's the taste of your childhood. It's the ice cream your grandmother used to buy. It's what you ask for when you want something special. It's Central America in a spoon.",
     "timelineTag": "Milestones",
     "timelineTitle": "The Journey",
     "timeline": {
-      "1946": { "title": "An Obsession Is Born", "description": "A passionate Salvadoran family founds Riosoto. Secret recipes. Real ingredients. An obsession with quality. A tradition that would last 80 years begins." },
-      "1960s": { "title": "Grows Within Hearts", "description": "Riosoto becomes part of Salvadoran childhood. Schools. Celebrations. Special moments. The brand everyone knows." },
-      "1980s": { "title": "Expands Across the Region", "description": "Riosoto crosses borders. Honduras. Guatemala. A flavor that connects all of Central America." },
+      "1946": { "title": "An Obsession Is Born", "description": "A passionate Salvadoran family founds RioSoto. Secret recipes. Real ingredients. An obsession with quality. A tradition that would last 80 years begins." },
+      "1960s": { "title": "Grows Within Hearts", "description": "RioSoto becomes part of Salvadoran childhood. Schools. Celebrations. Special moments. The brand everyone knows." },
+      "1980s": { "title": "Expands Across the Region", "description": "RioSoto crosses borders. Honduras. Guatemala. A flavor that connects all of Central America." },
       "2000s": { "title": "Innovation with Roots", "description": "We expanded to 30+ flavors. New presentations. But we kept what makes us special: quality, tradition, love for flavor." },
-      "2026": { "title": "The Future Is Now", "description": "Riosoto modernizes. We connect directly with you. Because after 80 years, we only want one thing: for you to keep enjoying our ice cream." }
+      "2026": { "title": "The Future Is Now", "description": "RioSoto modernizes. We connect directly with you. Because after 80 years, we only want one thing: for you to keep enjoying our ice cream." }
     },
     "valuesTag": "Principles",
     "valuesTitle": "What We Believe In",
     "values": {
       "quality": { "title": "Uncompromising Quality", "description": "Every flavor is a promise. Real ingredients. Recipes perfected over 80 years. We never cut corners. Ever." },
       "love": { "title": "Love for Central America", "description": "We were born in El Salvador, but Central America is our home. We understand your culture, your market, your family. We're not a corporate company—we're yours." },
-      "innovation": { "title": "Innovation with Tradition", "description": "We reinvent ourselves, but we never lose sight of what made us special. 30+ flavors. New presentations. But Riosoto's DNA remains the same." },
-      "moment": { "title": "Your Special Moment", "description": "Riosoto is accessible luxury. Your indulgence. Your reward. You deserve something good. It's that simple." }
+      "innovation": { "title": "Innovation with Tradition", "description": "We reinvent ourselves, but we never lose sight of what made us special. 30+ flavors. New presentations. But RioSoto's DNA remains the same." },
+      "moment": { "title": "Your Special Moment", "description": "RioSoto is accessible luxury. Your indulgence. Your reward. You deserve something good. It's that simple." }
     },
-    "whyTitle": "Why Riosoto?",
+    "whyTitle": "Why RioSoto?",
     "whyDescription": "Because after 80 years, we know that quality and trust are priceless. We're not the trend of the moment. We're the tradition of your life.",
     "stats": {
       "years": "Years of History",
@@ -179,45 +182,45 @@
       "countries": "Countries",
       "moments": "Special Moments"
     },
-    "ctaTitle": "Ready to Try Riosoto?",
-    "ctaDescription": "Find Riosoto at your nearest supermarket or distributor. If it's not there, ask for it. We want to be where you are.",
-    "ctaAction": "Find Riosoto Near You"
+    "ctaTitle": "Ready to Try RioSoto?",
+    "ctaDescription": "Find RioSoto at your nearest supermarket or distributor. If it's not there, ask for it. We want to be where you are.",
+    "ctaAction": "Find RioSoto Near You"
   },
   "recipes": {
     "headerTag": "CREATE SPECIAL MOMENTS",
-    "headerTitle": "Recipes with Riosoto",
+    "headerTitle": "Recipes with RioSoto",
     "headerDescription": "Inspiration for using our ice cream in incredible desserts.",
     "ingredientsLabel": "Ingredients",
     "moreIngredients": "+ {count} more",
     "viewRecipe": "View Full Recipe",
-    "ctaTitle": "Your Recipe with Riosoto?",
+    "ctaTitle": "Your Recipe with RioSoto?",
     "ctaDescription": "Create your own recipe with our ice cream and share it with us. It could appear here.",
     "ctaAction": "Send Your Recipe",
     "tipsTag": "Tips",
     "tipsTitle": "Tips for Better Recipes",
     "items": {
-      "1": { "title": "Luxury Sundae with Riosoto", "excerpt": "An elegant cup that blends Riosoto Premium with hot chocolate and fresh fruits." },
+      "1": { "title": "Luxury Sundae with RioSoto", "excerpt": "An elegant cup that blends RioSoto Premium with hot chocolate and fresh fruits." },
       "2": { "title": "Choco Fresa Milkshake", "excerpt": "Refreshing and delicious. Perfect for hot days in El Salvador." },
-      "3": { "title": "Gourmet Sandwich with Riosoto", "excerpt": "Our Sandwich Ice Cream with toasted bread and homemade caramel." },
+      "3": { "title": "Gourmet Sandwich with RioSoto", "excerpt": "Our Sandwich Ice Cream with toasted bread and homemade caramel." },
       "4": { "title": "Frozen Mora Dessert", "excerpt": "A sophisticated dessert with our Mora flavor, perfect for special dinners." },
       "5": { "title": "Salvadoran Affogato", "excerpt": "Hot coffee over Choco Cream ice cream. Simply delicious." },
-      "6": { "title": "Frozen Horchata with Riosoto", "excerpt": "Fuses Salvadoran tradition with our Horchata ice cream. Incredible." }
+      "6": { "title": "Frozen Horchata with RioSoto", "excerpt": "Fuses Salvadoran tradition with our Horchata ice cream. Incredible." }
     },
     "tips": {
-      "cold": { "title": "Keep It Cold", "description": "Riosoto ice cream is best when it's really cold. Take it out of the freezer just before serving." },
+      "cold": { "title": "Keep It Cold", "description": "RioSoto ice cream is best when it's really cold. Take it out of the freezer just before serving." },
       "experiment": { "title": "Experiment", "description": "Mix flavors. Combine Choco Fresa with Mora. Find your favorite combination." },
-      "style": { "title": "Present with Style", "description": "A good presentation makes Riosoto even more special. Use elegant cups." }
+      "style": { "title": "Present with Style", "description": "A good presentation makes RioSoto even more special. Use elegant cups." }
     }
   },
   "contact": {
     "headerTitle": "Let's Talk",
-    "headerDescription": "Whether you love Riosoto or want to distribute it, we'd love to hear from you.",
+    "headerDescription": "Whether you love RioSoto or want to distribute it, we'd love to hear from you.",
     "typeConsumer": "I'm a Customer",
     "typeDistributor": "I'm a Distributor",
     "consumerTitle": "Your Opinion Matters",
     "distributorTitle": "Let's Work Together",
-    "consumerSubtitle": "Tell us what you think about Riosoto, where you found it, or what flavor you'd like to try.",
-    "distributorSubtitle": "Share your information and let's talk about how Riosoto can reach more people through your business.",
+    "consumerSubtitle": "Tell us what you think about RioSoto, where you found it, or what flavor you'd like to try.",
+    "distributorSubtitle": "Share your information and let's talk about how RioSoto can reach more people through your business.",
     "labelName": "Your Name *",
     "placeholderName": "What's your name?",
     "labelEmail": "Email *",
@@ -234,8 +237,8 @@
     "placeholderLocation": "Where are you?",
     "labelMessageConsumer": "Your Message *",
     "labelMessageDistributor": "Tell Us More *",
-    "placeholderMessageConsumer": "What do you think of Riosoto? What flavor do you love? Where did you buy it?",
-    "placeholderMessageDistributor": "Tell us about your business and why you're interested in distributing Riosoto.",
+    "placeholderMessageConsumer": "What do you think of RioSoto? What flavor do you love? Where did you buy it?",
+    "placeholderMessageDistributor": "Tell us about your business and why you're interested in distributing RioSoto.",
     "submitConsumer": "Send My Feedback",
     "submitDistributor": "Request Information",
     "successMessage": "Thank you! We'll be in touch very soon.",
@@ -254,18 +257,18 @@
     "mapsLabel": "Google Maps",
     "mapsLink": "View on Map",
     "followTitle": "Follow Us",
-    "followDescription": "Find Riosoto on social media.",
+    "followDescription": "Find RioSoto on social media.",
     "quickResponseTitle": "Quick Response",
     "quickResponseDescription": "Your opinion matters to us. We respond within 24 hours.",
     "opportunityTitle": "Real Opportunity",
-    "opportunityDescription": "If you love Riosoto and want it to reach more people, let's talk.",
+    "opportunityDescription": "If you love RioSoto and want it to reach more people, let's talk.",
     "opportunityNote": "Distributors, supermarkets, and vendors welcome.",
     "trustTitle": "We're Waiting for Your Message",
-    "trustDescription": "Riosoto is for everyone. Customer, distributor, or just someone who wants to know more: we want to hear from you."
+    "trustDescription": "RioSoto is for everyone. Customer, distributor, or just someone who wants to know more: we want to hear from you."
   },
   "empleo": {
     "headerTag": "Careers",
-    "headerTitle": "Join the Riosoto Team",
+    "headerTitle": "Join the RioSoto Team",
     "headerDescription": "Build your career at Central America's most beloved ice cream brand. 80 years of tradition, and you can be part of what's next.",
     "openPositionsTag": "Open Positions",
     "openPositionsTitle": "Available Opportunities",
@@ -281,7 +284,7 @@
     "labelPosition": "Position of Interest *",
     "placeholderPosition": "Select a position...",
     "labelAboutYou": "Tell Us About Yourself *",
-    "placeholderAboutYou": "Your experience, why you're interested in Riosoto, and anything you'd like to share...",
+    "placeholderAboutYou": "Your experience, why you're interested in RioSoto, and anything you'd like to share...",
     "submitButton": "Submit Application",
     "successMessage": "Thank you! We received your application. We'll contact you soon.",
     "errorNameRequired": "Name is required",
@@ -290,7 +293,7 @@
     "errorPhoneRequired": "Phone number is required",
     "errorPositionRequired": "Select a position",
     "errorMessageRequired": "Tell us about yourself",
-    "whyRiosotoTitle": "Why Riosoto?",
+    "whyRioSotoTitle": "Why RioSoto?",
     "benefits": {
       "stable": { "title": "Stable Company", "description": "80 years in the market. Constant growth across Central America." },
       "growth": { "title": "Professional Growth", "description": "Development opportunities and continuous training." },
@@ -302,27 +305,27 @@
       "1": "Submit your application here",
       "2": "We review your profile (1-3 days)",
       "3": "Interview with the team",
-      "4": "Welcome to Riosoto!"
+      "4": "Welcome to RioSoto!"
     },
     "questionsTitle": "Questions?",
     "questionsDescription": "Write to us at {email} and we'll respond promptly.",
     "questionsEmail": "empleo@riosoto.com",
     "ctaTitle": "Your Future Starts Here",
-    "ctaDescription": "Riosoto is more than ice cream. It's a family, a tradition, and an opportunity to grow. Ready to be part of it?",
+    "ctaDescription": "RioSoto is more than ice cream. It's a family, a tradition, and an opportunity to grow. Ready to be part of it?",
     "ctaAction1": "See Positions Above",
     "ctaAction2": "Contact HR",
     "jobs": {
       "prod-operador-sv": { "title": "Production Operator", "department": "Plant", "type": "Full Time", "description": "Responsible for operating ice cream production lines, ensuring quality and efficiency in every batch.", "requirements": ["Experience in food manufacturing (preferred)", "Availability for rotating shifts", "High school diploma", "Teamwork and attention to detail"] },
       "maint-tecnico-sv": { "title": "Maintenance Technician", "department": "Plant", "type": "Full Time", "description": "Preventive and corrective maintenance of refrigeration equipment and production lines.", "requirements": ["Technical degree in industrial mechanics or electromechanics", "2+ years of industrial maintenance experience", "Knowledge of refrigeration systems", "Availability for emergencies"] },
       "ventas-ejecutivo-sv": { "title": "Sales Executive", "department": "Commercial", "type": "Full Time", "description": "Client portfolio management and development of new points of sale in the metropolitan area.", "requirements": ["Degree in Marketing, Business Administration or related", "1+ year in consumer goods sales", "Valid driver's license", "Negotiation and communication skills"] },
-      "mkt-disenador-sv": { "title": "Graphic Designer", "department": "Marketing", "type": "Full Time", "description": "Creation of visual materials for campaigns, packaging, and social media for the Riosoto brand.", "requirements": ["Degree in Graphic Design or related", "Proficiency in Adobe Creative Suite", "Portfolio with branding or consumer goods work", "Creativity and passion for the brand"] },
+      "mkt-disenador-sv": { "title": "Graphic Designer", "department": "Marketing", "type": "Full Time", "description": "Creation of visual materials for campaigns, packaging, and social media for the RioSoto brand.", "requirements": ["Degree in Graphic Design or related", "Proficiency in Adobe Creative Suite", "Portfolio with branding or consumer goods work", "Creativity and passion for the brand"] },
       "log-supervisor-hn": { "title": "Distribution Supervisor", "department": "Logistics", "type": "Full Time", "description": "Coordination of distribution routes and supervision of delivery teams in central Honduras.", "requirements": ["Degree in Logistics, Business Administration or related", "3+ years in refrigerated product distribution", "Team leadership experience", "Knowledge of central zone routes"] },
-      "ventas-rep-hn": { "title": "Sales Representative", "department": "Commercial", "type": "Full Time", "description": "Expanding Riosoto's presence in northern Honduras. Customer acquisition and service.", "requirements": ["Field sales experience", "Knowledge of the San Pedro Sula market", "Valid driver's license", "Results-oriented"] }
+      "ventas-rep-hn": { "title": "Sales Representative", "department": "Commercial", "type": "Full Time", "description": "Expanding RioSoto's presence in northern Honduras. Customer acquisition and service.", "requirements": ["Field sales experience", "Knowledge of the San Pedro Sula market", "Valid driver's license", "Results-oriented"] }
     }
   },
   "newsletter": {
     "title": "Don't Miss the New Stories",
-    "description": "Receive new articles about flavors, recipes, and the history of Riosoto.",
+    "description": "Receive new articles about flavors, recipes, and the history of RioSoto.",
     "placeholder": "your@email.com",
     "submit": "Subscribe",
     "success": "Thanks for subscribing!"

@@ -2,7 +2,7 @@ import "./globals.css";
 import type { ReactNode } from "react";
 
 export const metadata = {
-  title: "Helados Riosoto | Desde 1946",
+  title: "Helados RioSoto | Desde 1946",
   description: "80 años de tradición. 30+ sabores únicos. Presente en El Salvador, Honduras y Guatemala.",
 };
 

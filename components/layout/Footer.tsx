@@ -15,7 +15,7 @@ export async function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12 mb-16">
           <div className="md:col-span-1">
-            <Image src="/logo.svg" alt="Riosoto" width={400} height={120} className="h-32 w-auto mb-4" />
+            <Image src="/logo.svg" alt="RioSoto" width={400} height={120} className="h-32 w-auto mb-4" />
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               {t('tagline')}
             </p>

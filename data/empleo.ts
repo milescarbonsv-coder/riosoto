@@ -54,7 +54,7 @@ export const jobPositions: JobPosition[] = [
     country: 'El Salvador',
     department: 'Marketing',
     type: 'Tiempo Completo',
-    description: 'Creación de materiales visuales para campañas, empaque y redes sociales de la marca Riosoto.',
+    description: 'Creación de materiales visuales para campañas, empaque y redes sociales de la marca RioSoto.',
     requirements: [
       'Licenciatura en Diseño Gráfico o afín',
       'Dominio de Adobe Creative Suite',
@@ -85,7 +85,7 @@ export const jobPositions: JobPosition[] = [
     country: 'Honduras',
     department: 'Comercial',
     type: 'Tiempo Completo',
-    description: 'Expansión de la presencia de Riosoto en el norte de Honduras. Captación y atención de clientes.',
+    description: 'Expansión de la presencia de RioSoto en el norte de Honduras. Captación y atención de clientes.',
     requirements: [
       'Experiencia en ventas de campo',
       'Conocimiento del mercado de San Pedro Sula',

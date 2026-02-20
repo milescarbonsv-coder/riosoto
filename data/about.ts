@@ -7,7 +7,7 @@ export const timelineEntries: TimelineEntry[] = [
     bgColor: "bg-orange-50",
     borderColor: "border-orange-500",
     title: "Nace una Obsesión",
-    description: "Una familia salvadoreña apasionada funda Riosoto. Recetas secretas. Ingredientes reales. Obsesión por la calidad. Comienza una tradición que duraría 80 años.",
+    description: "Una familia salvadoreña apasionada funda RioSoto. Recetas secretas. Ingredientes reales. Obsesión por la calidad. Comienza una tradición que duraría 80 años.",
     yearTextSize: "text-4xl",
   },
   {
@@ -16,7 +16,7 @@ export const timelineEntries: TimelineEntry[] = [
     bgColor: "bg-yellow-50",
     borderColor: "border-yellow-500",
     title: "Crece Dentro del Corazón",
-    description: "Riosoto se convierte en parte de la infancia salvadoreña. Escuelas. Celebraciones. Momentos especiales. La marca que todos conocen.",
+    description: "RioSoto se convierte en parte de la infancia salvadoreña. Escuelas. Celebraciones. Momentos especiales. La marca que todos conocen.",
     yearTextSize: "text-2xl",
   },
   {
@@ -25,7 +25,7 @@ export const timelineEntries: TimelineEntry[] = [
     bgColor: "bg-blue-50",
     borderColor: "border-blue-500",
     title: "Se Expande en la Región",
-    description: "Riosoto cruza fronteras. Honduras. Guatemala. Un sabor que conecta a toda Centroamérica.",
+    description: "RioSoto cruza fronteras. Honduras. Guatemala. Un sabor que conecta a toda Centroamérica.",
     yearTextSize: "text-2xl",
   },
   {
@@ -43,7 +43,7 @@ export const timelineEntries: TimelineEntry[] = [
     bgColor: "bg-orange-50",
     borderColor: "border-orange-500",
     title: "El Futuro es Ahora",
-    description: "Riosoto se moderniza. Conectamos directamente contigo. Porque después de 80 años, solo queremos una cosa: que sigas disfrutando de nuestro helado.",
+    description: "RioSoto se moderniza. Conectamos directamente contigo. Porque después de 80 años, solo queremos una cosa: que sigas disfrutando de nuestro helado.",
     yearTextSize: "text-3xl",
   },
 ];
@@ -66,14 +66,14 @@ export const values: ValueCard[] = [
   {
     emoji: "🚀",
     title: "Innovación con Tradición",
-    description: "Nos reinventamos, pero nunca perdemos de vista lo que nos hizo especiales. 30+ sabores. Presentaciones nuevas. Pero el DNA de Riosoto sigue igual.",
+    description: "Nos reinventamos, pero nunca perdemos de vista lo que nos hizo especiales. 30+ sabores. Presentaciones nuevas. Pero el DNA de RioSoto sigue igual.",
     gradient: "from-yellow-100 to-orange-100",
     borderColor: "border-yellow-500",
   },
   {
     emoji: "🎉",
     title: "Tu Momento Especial",
-    description: "Riosoto es lujo accesible. Tu capricho. Tu premio. Mereces algo bueno. Así de simple.",
+    description: "RioSoto es lujo accesible. Tu capricho. Tu premio. Mereces algo bueno. Así de simple.",
     gradient: "from-pink-100 to-purple-100",
     borderColor: "border-pink-500",
   },

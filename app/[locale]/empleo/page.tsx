@@ -187,7 +187,7 @@ export default function Empleo() {
             {/* Info Cards */}
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-3xl border border-slate-200/50">
-                <h3 className="font-bold text-slate-900 mb-4 text-lg">{t('whyRiosotoTitle')}</h3>
+                <h3 className="font-bold text-slate-900 mb-4 text-lg">{t('whyRioSotoTitle')}</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <span className="text-xl">🏭</span>

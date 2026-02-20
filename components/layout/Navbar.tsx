@@ -26,7 +26,7 @@ export async function Navbar() {
     <nav className="sticky top-0 z-50 glass border-b border-slate-200/50">
       <div className="max-w-7xl mx-auto px-3 sm:px-4 py-1 flex justify-between items-center">
         <Link href="/" className="flex-shrink-0 -my-4 ml-2 sm:ml-4">
-          <Image src="/logo.svg" alt="Riosoto" width={300} height={90} className="h-28 sm:h-32 w-auto" />
+          <Image src="/logo.svg" alt="RioSoto" width={300} height={90} className="h-28 sm:h-32 w-auto" />
         </Link>
         <div className="flex items-center">
           <div className="hidden md:flex gap-8 items-center">

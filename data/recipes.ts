@@ -3,12 +3,12 @@ import type { Recipe, TipCard } from './types';
 export const recipes: Recipe[] = [
   {
     id: 1,
-    title: "Sundae de Lujo con Riosoto",
-    excerpt: "Una copa elegante que mezcla Riosoto Premium con chocolate caliente y frutas frescas.",
+    title: "Sundae de Lujo con RioSoto",
+    excerpt: "Una copa elegante que mezcla RioSoto Premium con chocolate caliente y frutas frescas.",
     prepTime: "10 min",
     difficulty: "Fácil",
     emoji: "🍨",
-    ingredients: ["Copa Premium Riosoto", "Chocolate derretido", "Fresas", "Nueces", "Crema batida"],
+    ingredients: ["Copa Premium RioSoto", "Chocolate derretido", "Fresas", "Nueces", "Crema batida"],
   },
   {
     id: 2,
@@ -17,16 +17,16 @@ export const recipes: Recipe[] = [
     prepTime: "5 min",
     difficulty: "Muy Fácil",
     emoji: "🥤",
-    ingredients: ["Helado Choco Fresa Riosoto", "Leche fría", "Miel", "Hielo"],
+    ingredients: ["Helado Choco Fresa RioSoto", "Leche fría", "Miel", "Hielo"],
   },
   {
     id: 3,
-    title: "Sándwich Gourmet con Riosoto",
+    title: "Sándwich Gourmet con RioSoto",
     excerpt: "Nuestro Sandwich Ice Cream con pan tostado y caramelo casero.",
     prepTime: "15 min",
     difficulty: "Medio",
     emoji: "🥪",
-    ingredients: ["Sandwich Ice Cream Riosoto", "Pan integral", "Caramelo", "Almendras"],
+    ingredients: ["Sandwich Ice Cream RioSoto", "Pan integral", "Caramelo", "Almendras"],
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const recipes: Recipe[] = [
     prepTime: "20 min",
     difficulty: "Medio",
     emoji: "🫐",
-    ingredients: ["Helado Mora Riosoto", "Galletas digestivas", "Mermelada de mora", "Menta"],
+    ingredients: ["Helado Mora RioSoto", "Galletas digestivas", "Mermelada de mora", "Menta"],
   },
   {
     id: 5,
@@ -44,16 +44,16 @@ export const recipes: Recipe[] = [
     prepTime: "5 min",
     difficulty: "Muy Fácil",
     emoji: "☕",
-    ingredients: ["Helado Choco Cream Riosoto", "Café espresso", "Azúcar", "Canela"],
+    ingredients: ["Helado Choco Cream RioSoto", "Café espresso", "Azúcar", "Canela"],
   },
   {
     id: 6,
-    title: "Horchata Frozen con Riosoto",
+    title: "Horchata Frozen con RioSoto",
     excerpt: "Fusiona la tradición salvadoreña con nuestro helado de Horchata. Increíble.",
     prepTime: "10 min",
     difficulty: "Fácil",
     emoji: "🥛",
-    ingredients: ["Helado Horchata Riosoto", "Leche de almendra", "Canela", "Hielo picado"],
+    ingredients: ["Helado Horchata RioSoto", "Leche de almendra", "Canela", "Hielo picado"],
   },
 ];
 
@@ -61,7 +61,7 @@ export const recipeTips: TipCard[] = [
   {
     emoji: "❄️",
     title: "Mantén Frío",
-    description: "El helado Riosoto es mejor cuando está bien frío. Saca del congelador solo antes de servir.",
+    description: "El helado RioSoto es mejor cuando está bien frío. Saca del congelador solo antes de servir.",
     gradient: "from-blue-100 to-blue-50",
   },
   {
@@ -73,7 +73,7 @@ export const recipeTips: TipCard[] = [
   {
     emoji: "✨",
     title: "Presenta con Estilo",
-    description: "Una buena presentación hace que Riosoto sea aún más especial. Usa copas elegantes.",
+    description: "Una buena presentación hace que RioSoto sea aún más especial. Usa copas elegantes.",
     gradient: "from-yellow-100 to-yellow-50",
   },
 ];
